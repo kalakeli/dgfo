@@ -1,0 +1,355 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  /* Margin bottom by footer height -> sticky footer */
+  margin-bottom: 75px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: #525254;
+}
+h1, h2, h3, h4, h5 {
+  /*color: #222;*/
+  font-family: 'Oswald', sans-serif;
+}
+h1 {
+  color: #3c763d;
+}
+
+#id_headerpics p {
+  font-size: .8em;
+}
+
+a {
+  color: #82B282;
+  font-weight: 600;
+}
+
+a[href^="mailto:"]:after {
+  margin-left: 8px;
+  padding-right: 8px;
+  font-family: 'FontAwesome';
+  font-size: 14px;
+  vertical-align: top;
+  content: "\f003 ";
+  display: inline;
+}
+strong {
+  color: #000;
+}
+
+.page-wrap {
+  margin-left: 175px; /* muss zum Start ebenso 300px nach links verschoben sein
+                         und wird bei Klick auf das + nach rechts verschoben */
+  margin-top: 30px;
+  width: calc(100% - 175px);
+  padding-bottom:25px;
+}
+
+.header {
+  margin-left: 150px;
+}
+
+#dgfo_logo {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+}
+
+#dgfo_footer {
+  position: absolute;
+  bottom: 0;
+  left: 450px;
+  width: calc(100% - 450px); /* um die Breite der Seite auszunutzen */
+  height: 75px; /* fixe Hoehe des Footers */
+  line-height: 75px;
+  background-color: #fff;
+}
+
+#footerlogo {  /* bei smartphone ausblenden */
+  padding-top: 4px;
+  position: absolute;
+  right:10px;
+  bottom: -70px; /* in den Footer schieben */
+}
+
+h1.title {
+  font-size: 42px;
+  text-align: left;
+  text-shadow: 1px 1px 2px #789;
+  padding-bottom: 12px;
+}
+#title_mobile {  /* nur bei mobile  */
+  opacity: 0;
+}
+
+ul.dgfo {
+  list-style: none;
+  margin-left: -.1em;
+}
+ol.dgfo {
+  margin-left: .8em;
+}
+ul.dgfo li {
+  padding-left: .8em;
+}
+ul.dgfo li:before {
+  content: "\f0da";
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -.8em;
+  width: .8em;
+}
+
+/* besonderes Hervorheben der Autoren */
+.authors {
+  font-weight: 600;
+  font-variant: small-caps;
+  font-size: large;
+}
+
+/* Lupe einblenden im Suchfenster */
+#id_ac_s {
+  background:#ffffff url(../images/icon_search_24px.png) no-repeat 2% 50%;
+  padding-left:45px;
+}
+
+/* ajax loader fuer suche */
+#indicator1 {
+  margin: 0 45%;
+  display:none;
+}
+
+/* AutoComplete formatieren */
+ul.ac {
+  z-index: 100;
+  padding: 0;
+  position: absolute;
+  list-style-type: none;
+  text-align: left;
+  background: white;
+  border: 1px solid #ccc;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+ul.ac li {
+  border-bottom: 1px solid #e0e0e0;
+	/*padding: 5px 5px 5px 15px;*/
+}
+ul.ac li:last-child {
+  border-bottom: 0;
+}
+ul.ac li a {
+  display: block;
+  padding: 5px 5px 5px 15px;
+  margin: 2px;
+  text-decoration: none;
+}
+ul.ac li a:hover {
+  background-color: #82B282;
+  color: white;
+  text-decoration: none;
+}
+ul.ac li a strong {
+  border-bottom: 1px solid black;
+  font-weight: 600;
+}
+
+/* Uberschreiben von Bootstrap Eigenschaften */
+.panel-title {
+  text-align: center;
+}
+
+/* --- K o p f b i l d e r  --- */
+.imgtitle {
+  width: 100%;
+  height: 50px;
+  position:absolute;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  background-color: #fff;
+  opacity: .75;
+  padding-top:10px;
+}
+.imgtitle p {
+  font-size: .9em;
+}
+
+/* --- N a v i g a t i o n   H A M B U R G E R  --- */
+.hamburger {
+  position: absolute;
+  top: 28px;
+  left: 20px;
+  z-index: 99;
+  display: none;
+}
+/* --- N a v i g a t i o n --- */
+.navigation {
+  width: 450px;
+  height: 100%;
+  background-color: #3c763d;
+  position: fixed;
+  top: 0;
+  left: -300px;
+  z-index: 100;
+}
+
+.navigation ul {
+  width: 150px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  color: #fff;
+  background-color: #383B48;
+  position: absolute;
+  left: 300px;
+  top: 0;
+}
+
+.navigation ul li {
+  height: 11.1vh;
+  width: 100%;
+  border-bottom: 1px solid #fff;
+  text-align: center;
+  position: relative;
+  z-index: 50;
+}
+/* DGFO-Starttext */
+.navigation ul li h2 {
+  padding: 20px 0 0 15px;
+  margin: 0;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.navigation ul li .menubar {
+  height: 100%;
+  width: 25px;
+  line-height: 11.1vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #3c763d;
+  display:block;
+  z-index: 60;
+}
+
+.navigation ul li figure {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  width: 100%;
+  height: 100%;
+  display:block;
+}
+
+.lngchanger {
+  position: absolute;
+  top: 80%;
+  left: 55%;
+  cursor: pointer;
+  transform: translate(-55%, -60%);
+}
+
+.navigation ul li .menubar a,
+.navigation ul li figure a  {
+  display:block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: #fff;
+  transition: all .3s ease;
+}
+
+.navigation ul li .menubar a:hover,
+.navigation ul li figure a:hover {
+  transition: all .3s ease;
+  background-color: #3c763d;
+}
+
+.navigation ul li figure .navicon {
+  width: auto;
+  max-width: 48px;
+  height: auto;
+  max-height: 80%;
+  position: absolute;
+  top: 60%;
+  left: 55%;
+  cursor: pointer;
+  transform: translate(-55%, -60%);
+}
+
+.navigation figcaption {
+  font-size: 0.6em;
+  margin-top: 0;
+  padding-top: 3px;
+  color: #ccc;
+}
+
+.navigation ul li figure a.active {
+  background-color: #3c763d;
+}
+/* zweite Ebene der Navigation */
+#secondnav {
+  width:300px;
+  padding-top:30px;
+  color: #fff;
+  font-size: smaller;
+}
+#secondul li {
+  list-style-type: none;
+  height: auto;
+  padding: 15px;
+  margin-left: 20px;
+  border-top: 1px solid #3c763d;
+  border-bottom: 1px solid #3c763d;
+}
+/*#secondul li.active {
+  border-top: 1px solid #025e37;
+  border-bottom: 1px solid #025e37;
+  background-color: #025e37;
+}*/
+#secondul li a {
+  display:block;
+  color: #fff;
+}
+#secondul li a {
+  font-weight: bold;
+  text-decoration: none;
+}
+#secondul li a:hover::before {
+  margin-left: -22px;
+  padding-right: 8px;
+  font-family: 'FontAwesome';
+  font-size: 15px;
+  content: "\f0a9 ";
+  display: inline;
+}
+#closemenu {
+  cursor: pointer;
+}
+
+/* --- C o v e r b i l d e r --- */
+.cover {
+  z-index:10;
+}
+
+/* --- --- */
+.floatleft {
+  float: left;
+  margin: 0 15px 15px 0;
+}
+.floatright {
+  float: right;
+  margin: 0 0 15px 15px;
+}
+
+figcaption {
+  font-size: .7em;
+  font-style: italic;
+  color: #999;
+  margin: 6px 0;
+}

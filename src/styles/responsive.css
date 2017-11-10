@@ -1,0 +1,96 @@
+/* --- R E S P O N S I V E   F E A T U R E S   --- */
+@media screen and (min-width:769px) and (max-width:990px) {
+  h1.title {
+    font-size: 30px !important;
+  }
+  #id_headerpics .imgtitle {
+    transition: all .5s ease;
+    opacity: 0;
+  }
+
+  .page-wrap {
+    margin-top: 15px !important;
+  }
+}
+
+@media screen and (max-width:768px) {
+
+  /* navigation - header und page-wrap muessen auch verschoben werden */
+  .hamburger {
+    display: block !important;
+  }
+  .navigation {
+    transition: all .5s ease;
+    opacity: 0;
+    transform:translate(-150px);
+  }
+  .navigation ul li figure figcaption {
+    display: none;
+  }
+  .navigation.open {
+    transition: all .5s ease;
+    transform:translate(0px);
+    opacity: 1;
+  }
+  .page-wrap {
+    transition: all .5s ease;
+    transform:translate(-150px);
+    width: calc(100% - 40px) !important; /* Breite weitesmoeglich machen */
+    margin-top:0 !important;
+  }
+  .page-wrap.open {
+    transition: all .5s ease;
+    transform:translate(0px);
+    width: calc(100% - 175px);
+  }
+  .header {
+    transition: all .5s ease;
+    width: 100% !important;
+    transform:translate(-100px);
+  }
+  .header.open {
+    transition: all .5s ease;
+    transform:translate(-0px);
+  }
+  #dgfo_footer {
+    left: 0px !important;
+    width: 100% !important;
+  }
+  #dgfo_logo {
+    right: 80px !important;
+  }
+
+  /*h1 {
+    font-size: 32px !important;
+  }*/
+  h2 {
+    font-size: 28px !important;
+  }
+  h3 {
+    font-size: 22px !important;
+  }
+  h1.title {
+    font-size: 42px;
+  }
+  #title_normal {
+    transition: all .5s ease;
+    opacity: 0;
+    display:none;
+  }
+  #title_mobile {
+    transition: all .5s ease;
+    padding-left: 30px;
+    opacity: 1 !important;
+  }
+
+
+  /* dtsche Titel bei der Checkliste ausblenden */
+  .speciessmallscr {
+    display: none;
+  }
+
+  /* headerpics ausblenden */
+  #id_headerpics {
+    display: none;
+  }
+}

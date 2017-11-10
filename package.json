@@ -1,0 +1,23 @@
+{
+  "name": "2017_forschungsprojekt",
+  "version": "1.0.0",
+  "description": "Forschungsprojekt Thomas Fartmann",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "gulp-clean-css": "^3.0.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-minify": "0.0.15",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-responsive": "^2.7.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Karsten Berlin",
+  "license": "ISC"
+}
