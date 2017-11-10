@@ -1,4 +1,4 @@
-<?php
+﻿<?php
   // deutschsprachige Hauptseite der Schaben und Ohrwürmer
 
   // require_once "includes/db_inc.php";
@@ -8,17 +8,18 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-      <h1>Schaben und Ohrwürmer</h1>
+      <h1>Schaben und Ohrwürmer</h1></br>
     </div>
   </div>
+<h3>Schaben und Ohrwürmer in Deutschland</h3><br>
   <div class="row">
     <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
       <p>
           Neben Heuschrecken und Fangschrecken interessieren wir uns auch für
           Schaben und Ohrwürmer. Die natürlichen Vorkommen der meisten Arten
-          beider Taxa sind auf tropische Gebiete beschränkt. In Mitteleuropa
-          sind die beiden Artengruppen folglich nur mit wenigen Arten vertreten.
-          In Deutschland kommen aktuell 14 Schabenarten und 9 Ohrwurmarten vor,
+          beider Taxa sind auf subtropishe und tropische Gebiete beschränkt. In Mitteleuropa
+          sind die beiden Artengruppen folglich nur mit wenigen Arten vertreten.</p>
+          <p>In Deutschland kommen aktuell 14 Schabenarten und 9 Ohrwurmarten vor,
           unter denen sechs Schabenarten und zwei Ohrwurmarten ausschließlich
           synathrop leben. Diese Arten wurden durch menschliche Tätigkeiten
           eingeschleppt. Sie überwintern hierzulande in beheizten Gebäuden
@@ -45,45 +46,28 @@
           //]]>
           </script>
 
-          erstellt.
-      </p>
+          erstellt.</p>
+<p>Die Arten sind nach freilebenden Arten und synanthrop lebenden Arten sortiert. Innerhalb dieser Kategorien werden die Arten nach ihren Ordnungen, Familien und Unterfamilien nach geordnet. In den Unterfamilien werden die Arten in alphabetischer Reihenfolge aufgeführt.</br>
+      </p><br><hr>
 
     </div>
     <!-- rechte Seite -->
     <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
       <div class="panel panel-default">
         <div class="panel-heading">
-          <h3 class="panel-title">Ansprechpartner</h3>
+          <h3 class="panel-title">KONTAKT | SCHABEN & OHRWÜRMER</h3>
         </div>
         <div class="panel-body">
           <div class="row">
             <div class="col-sm-12 col-xs-12">
-              <p>
-                Manfred Alban Pfeifer <br>
-                Bahnhofsplatz 5 <br>
-                67240 Bobenheim-Roxheim <br>
-                Telefon: +49 6239-929515 </p><p>
-                E-Mail:
-                <script type="text/javascript">
-                //<![CDATA[
-                <!--
-                var x="function f(x){var i,o=\"\",l=x.length;for(i=l-1;i>=0;i--) {try{o+=x.c" +
-                "harAt(i);}catch(e){}}return o;}f(\")\\\"function f(x,y){var i,o=\\\"\\\\\\\""+
-                "\\\\,l=x.length;for(i=0;i<l;i++){y%=127;o+=String.fromCharCode(x.charCodeAt" +
-                "(i)^(y++));}return o;}f(\\\"\\\\37:/693*q\\\\\\\\027\\\\\\\\023\\\\\\\\013\\"+
-                "\\\\\\027\\\\\\\\001\\\\\\\\t\\\\\\\\010OJU\\\\\\\\013K\\\\\\\\004\\\\\\\\0" +
-                "37\\\\\\\\013\\\\\\\\tM-P\\\\\\\\036\\\\\\\\025\\\\\\\\034\\\\\\\\032\\\\\\" +
-                "\\003\\\\\\\\027C\\\\\\\\022\\\\\\\\036\\\\\\\\t\\\\\\\\016\\\\\\\\035hsg`o" +
-                "`h)zezKkbah|t\\\\\\\\177r}y8twtF9<iwkLD\\\\\\\\037\\\\\\\\177\\\\\\\\006y\\" +
-                "\\\\\\004\\\\\\\\031eHDM^HJ\\\\\\\\017q]PRZ\\\\\\\\025fQ]P\\\\\\\\\\\\\\\\^" +
-                "N\\\\\\\\001\\\\\\\\021^~ckxt~\\\"\\\\,87)\\\"(f};)lo,0(rtsbus.o nruter};)i" +
-                "(tArahc.x=+o{)--i;0=>i;1-l=i(rof}}{)e(hctac};l=+l;x=+x{yrt{)39=!)31/l(tAedo" +
-                "Crahc.x(elihw;lo=l,htgnel.x=lo,\\\"\\\"=o,i rav{)x(f noitcnuf\")"            ;
-                while(x=eval(x));
-                //-->
-                //]]>
-                </script>
-              </p>
+             
+                <h4>Deutsche Gesellschaft für Orthopterologie</h4><h4>Manfred Alban Pfeifer</h4>
+                <p>Bahnhofsplatz 5 <br>
+                DE-67240 Bobenheim-Roxheim <br>
+                 </p>
+                
+                <p><strong>E-Mail:</strong> <a href="mailto:heuschrecken.rlp@googlemail.com" title="">heuschrecken.rlp(at)<br>googlemail.com</a></p>
+              
             </div>
           </div>
         </div>
@@ -98,7 +82,7 @@ echo "<div class='row'>
 echo "    <div class='row'>";
 
 
-echo "      <div class='col-lg-6 col-md-6 col-sm-12 col-xs-12' style='border-right: 1px solid #f0f0f0;'>";
+echo "      <div class='col-lg-6 col-md-6 col-sm-12 col-xs-12' style='border-right: 0px solid #f0f0f0;'>";
 // Ebene 1 - Ordnung
 $theOrder = "Blattodea - Schaben ";
 
@@ -111,14 +95,14 @@ if (count($theSpecies)>0) {
   $famID = $theSpecies[0]->familyID;
   $subFam_sc = Species::getTaxonomyValForId($pdo, $lutSys, $theSpecies[0]->subFamilyID);
   $subFamID = $theSpecies[0]->subFamilyID;
-  echo "<h3>".$fam_sc."</h3>";
+  echo "<h3>".$fam_sc."</h3><br>";
   echo "<h4>".$subFam_sc."</h4>";
   for ($i=0; $i<count($theSpecies); $i++) {
 
       if ($theSpecies[$i]->familyID!=$famID) {
         $fam_sc = Species::getTaxonomyValForId($pdo, $lutSys, $theSpecies[$i]->familyID);
         $famID = $theSpecies[$i]->familyID;
-        echo "<h3>".$fam_sc."</h3>";
+        echo "<h3>".$fam_sc."</h3><br>";
       }
       if ($theSpecies[$i]->subFamilyID!=$subFamID) {
         $subFam_sc = Species::getTaxonomyValForId($pdo, $lutSys, $theSpecies[$i]->subFamilyID);
@@ -150,14 +134,14 @@ if (count($theSpecies)>0) {
   $famID = $theSpecies[0]->familyID;
   $subFam_sc = Species::getTaxonomyValForId($pdo, $lutSys, $theSpecies[0]->subFamilyID);
   $subFamID = $theSpecies[0]->subFamilyID;
-  echo "<h3>".$fam_sc."</h3>";
+  echo "<h3>".$fam_sc."</h3><br>";
   echo "<h4>".$subFam_sc."</h4>";
   for ($i=0; $i<count($theSpecies); $i++) {
 
       if ($theSpecies[$i]->familyID!=$famID) {
         $fam_sc = Species::getTaxonomyValForId($pdo, $lutSys, $theSpecies[$i]->familyID);
         $famID = $theSpecies[$i]->familyID;
-        echo "<h3>".$fam_sc."</h3>";
+        echo "<h3>".$fam_sc."</h3><br>";
       }
       if ($theSpecies[$i]->subFamilyID!=$subFamID) {
         $subFam_sc = Species::getTaxonomyValForId($pdo, $lutSys, $theSpecies[$i]->subFamilyID);
@@ -187,7 +171,7 @@ echo "</div>";
 echo "  </div>";
 echo "</div>";
 
-echo "<hr>";
+echo "";
 // +++++++++++++++++++++++++++++ O H R W U E R M E R  +++++++++++++++++++++++++
 
 
@@ -196,7 +180,7 @@ echo "<div class='row'>
 echo "    <div class='row'>";
 
 
-echo "      <div class='col-lg-6 col-md-6 col-sm-12 col-xs-12' style='border-right: 1px solid #f0f0f0;'>";
+echo "      <div class='col-lg-6 col-md-6 col-sm-12 col-xs-12' style='border-right: 0px solid #f0f0f0;'>";
 // Ebene 1 - Ordnung
 $theOrder = "Dermaptera - Ohrwürmer ";
 
@@ -209,7 +193,7 @@ if (count($theSpecies)>0) {
   $famID = $theSpecies[0]->familyID;
   $subFam_sc = Species::getTaxonomyValForId($pdo, $lutSys, $theSpecies[0]->subFamilyID);
   $subFamID = $theSpecies[0]->subFamilyID;
-  echo "<h3>".$fam_sc."</h3>";
+  echo "<h3>".$fam_sc."</h3><br>";
   echo "<h4>".$subFam_sc."</h4>";
   for ($i=0; $i<count($theSpecies); $i++) {
 
@@ -248,14 +232,14 @@ if (count($theSpecies)>0) {
   $famID = $theSpecies[0]->familyID;
   $subFam_sc = Species::getTaxonomyValForId($pdo, $lutSys, $theSpecies[0]->subFamilyID);
   $subFamID = $theSpecies[0]->subFamilyID;
-  echo "<h3>".$fam_sc."</h3>";
+  echo "<h3>".$fam_sc."</h3><br>";
   echo "<h4>".$subFam_sc."</h4>";
   for ($i=0; $i<count($theSpecies); $i++) {
 
       if ($theSpecies[$i]->familyID!=$famID) {
         $fam_sc = Species::getTaxonomyValForId($pdo, $lutSys, $theSpecies[$i]->familyID);
         $famID = $theSpecies[$i]->familyID;
-        echo "<h3>".$fam_sc."</h3>";
+        echo "<h3>".$fam_sc."</h3><br>";
       }
       if ($theSpecies[$i]->subFamilyID!=$subFamID) {
         $subFam_sc = Species::getTaxonomyValForId($pdo, $lutSys, $theSpecies[$i]->subFamilyID);

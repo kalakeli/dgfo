@@ -1,4 +1,4 @@
-<?php
+﻿<?php
   // deutschsprachige Hauptseite der Heuschrecken
 
   // require_once "includes/db_inc.php";
@@ -8,98 +8,136 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-      <h1>Heuschrecken und Fangschrecken</h1>
+      <h1>Heuschrecken und Fangschrecken</h1></br>
     </div>
   </div>
   <div class="row">
     <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
-      <h2>Heuschreckenfauna Europas</h2>
+      <h3>Heuschrecken und Fangschrecken in Europa</h3></br>
       <p>
-        In Europa kommen aktuell über 1.000 Heuschreckenarten vor, von denen nach
+        In Europa leben derzeit mehr als 1.000 Heuschreckenarten, von denen nach
         der aktuellen Europäischen Roten Liste mehr als ein Viertel als gefährdet
-        eingestuft wird. Die mitteleuropäische Heuschreckenfauna umfasst lediglich
-        etwas weniger als 160 Arten. In Deutschland und Nordtirol kommen derzeit
-        85 Heuschreckenarten und eine Fangschreckenart vor, die in den letzen
-        Jahren regelmäßig nachgewiesen werden konnten. Mehr als 40% der hierzulande
-        nachgewiesenen Arten sind in ihrem Fortbestand bedroht. Die Hauptursache
+        eingestuft wird. Darüber hinaus sind für Europa 49 Fangschreckenarten gelistet.</p>
+	<p> Die mitteleuropäische Heuschreckenfauna umfasst lediglich
+        etwas weniger als 160 Arten. In Deutschland kommen aktuell
+        78 Heuschreckenarten und eine Fangschreckenart vor. Mehr als 40 % der hierzulande
+        nachgewiesenen Arten sind in ihrem Fortbestand bedroht.</p>
+	<p>Die Hauptursache
         für den massiven Rückgang vieler in Deutschland ehemalig weit verbreiteten
-        Heuschreckenarten ist der Landnutzungswandel. Gleichzeitig kann jedoch
-        aktuell infolge anthropogen-bedingter klimatischer Veränderungen eine
+        Heuschreckenarten ist der Landnutzungswandel. Gleichzeitig kann jedoch infolge der Klimaerwärmung aktuell eine
         teils starke Ausbreitung thermophiler Arten beobachtet werden.
       </p>
       <p>
-        Für weitere Informationen über das Vorkommen und die Verbreitung der
-        Heuschrecken im gesamten Bearbeitungsgebiet der DGfO Nutzen Sie bitte
-        die Quellen in unserer Literaturdatenbank.
-      </p>
+        Für weitere Informationen über Vorkommen, Gefährdung  und die regionale Verbreitung der
+        Heuschrecken nutzen Sie bitte
+     die Quellen in unserer Literaturübersicht.
+      </p></br><hr>
 
-      <h2>Heuschreckenfauna Deutschlands</h2>
+      <h3>Heuschrecken und Fangschrecken in Deutschland</h3></br>
       <p>
         Die folgende Übersicht gibt Ihnen einen Überblick über alle aktuell in
-        Deutschland nachgewiesenen Fang und Heuschreckenarten. Wissenschaftliche
+        Deutschland nachgewiesenen Fang und Heuschreckenarten. Darüber hinaus werden in der Checkliste auch ausgestorbene, verschollene oder im Freiland extrem selten beobachtete Arten (Ausnahmeerscheinungen) aufgeführt.</p>
+	 Die Wissenschaftlichen
         Artnamen unterliegen der Nomenklatur der internationalen Datenbanken
         aller weltweit vorkommenden Fang- und Heuschreckenarten
-        (<a href="http://orthoptera.speciesfile.org" target="_blank"><em>Orthoptera Species File</em></a> bzw.
-        <a href="http://mantodea.speciesfile.org" target="_blank"><em>Mantodea Species File</em></a>).
-        Die Arten sind ihren Ordnungen, Familien und Unterfamilien nach geordnet.
+        (<a href="http://orthoptera.speciesfile.org" target="_blank">Orthoptera Species File</a> bzw.
+        <a href="http://mantodea.speciesfile.org" target="_blank">Mantodea Species File</a>).</p>
+
+        <p>Die Arten sind ihren Ordnungen, Familien und Unterfamilien nach geordnet.
         Innerhalb der Unterfamilien werden die Arten in alphabetischer Reihenfolge
-        aufgeführt. Mit einem Klick auf die Arten erhalten Sie weitere
-        Informationen zur Verbreitung und zum Gefährdungsstatus der Arten
+        aufgeführt. Mit einem Klick auf die Arten erhalten Sie Informationen zur Verbreitung und zum Gefährdungsstatus der Arten
         innerhalb Deutschlands.
-      </p>
+      </p></br><hr>
 
 
     </div>
     <!-- rechte Seite -->
     <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-      <h2>Auch interessant</h2>
+      <h2></h2>
       <!-- Regionale Arbeitskreise -->
       <div class="panel panel-default">
         <div class="panel-heading">
-          <h3 class="panel-title">Regionale Arbeitskreise</h3>
+          <h3 class="panel-title">REGIONALE ARBEITSKREISE</h3>
         </div>
         <div class="panel-body">
           <div class="row">
             <div class="col-sm-12 col-xs-12">
-              <p>
-                <a href="heuschrecken/arbeitskreise/nrw/">
-                  <button type="button" name="button" class="btn btn-block btn-success">
-                    AK Heuschrecken in NRW
-                  </button>
+              <p><p>
+                <ul class="dgfo">
+        <li>
+                    <a href="heuschrecken/arbeitskreise/nrw/">
+                  Arbeitskreis Heuschrecken NRW</li></ul>
+                  
                 </a>
               </p>
               <p>
-                <a href="heuschrecken/arbeitskreise/brandenburg/">
-                  <button type="button" name="button" class="btn btn-block btn-success">
-                    AK Heuschrecken in Brandenburg
-                  </button>
+                 <ul class="dgfo">
+                    <li><a href="heuschrecken/arbeitskreise/brandenburg/">
+                Arbeitskreis Heuschrecken Berlin-Brandenburg
+                  </li></ul>
                 </a>
               </p>
             </div>
           </div>
         </div>
       </div>
-      <p>&nbsp;</p>
+      
       <!-- Literatur -->
       <div class="panel panel-default">
         <div class="panel-heading">
-          <h3 class="panel-title">Literatur</h3>
+          <h2 class="panel-title">LITERATUR</h2>
         </div>
         <div class="panel-body">
           <div class="row">
             <div class="col-sm-12 col-xs-12">
               <p>
-                Hier finden Sie eine umfassende Übersicht zu den wichtigsten
-                Literaturquellen über Fang- und Heuschrecken im Bearbeitungsgebiet
-                der DGfO.
+              
               </p>
               <p>
-                <a href="heuschrecken/literatur/">
-                  <button type="button" name="button" class="btn btn-block btn-success">
-                    zur Literaturübersicht
-                  </button>
+                 <ul class="dgfo">
+        <li><a href="heuschrecken/literatur/">
+                 
+                    Heuschreckenliteratur
+                  </li>
                 </a>
               </p>
+            </div>
+          </div>
+        </div>
+      </div>
+<div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">KONTAKT | HEUSCHRECKEN</h3>
+        </div>
+        <div class="panel-body">
+          <div class="row">
+            <div class="col-sm-12 col-xs-12">
+             <h4><p>Deutsche Gesellschaft für Orthopterologie</p><p>Prof. Dr. Thomas Fartmann</p></h4>
+                 <p>
+                
+		c/o Universität Osnabrück<br>
+		Abteilung für Biodiversität und Landschaftsökologie<br>
+		Barbarastraße 11 <br>
+                DE-49076 Osnabrück
+              </p>
+              <p>
+                <strong>E-Mail:</strong> <script type="text/javascript">
+        //<![CDATA[
+        <!--
+        var x="function f(x){var i,o=\"\",ol=x.length,l=ol;while(x.charCodeAt(l/13)!" +
+        "=55){try{x+=x;l+=l;}catch(e){}}for(i=l-1;i>=0;i--){o+=x.charAt(i);}return o" +
+        ".substr(0,ol);}f(\")221,\\\"meozpo1`r((e9&=700\\\\(+%.63!Y020\\\\I200\\\\13" +
+        "0\\\\f330\\\\dn\\\\SY@ZF120\\\\220\\\\sKI200\\\\XE\\\\\\\\hIHDIWP@F1j'sovpy" +
+        "z4I)uwcx/o1.#demsows-voe320\\\\010\\\\730\\\\420\\\\630\\\\\\\"(f};o nruter" +
+        "};))++y(^)i(tAedoCrahc.x(edoCrahCmorf.gnirtS=+o;721=%y;i=+y)221==i(fi{)++i;" +
+        "l<i;0=i(rof;htgnel.x=l,\\\"\\\"=o,i rav{)y,x(f noitcnuf\")"                  ;
+        while(x=eval(x));
+        //-->
+        //]]>
+        </script>
+              </p>
+              
+                        
             </div>
           </div>
         </div>
@@ -115,23 +153,23 @@
     // Ebene 2 - Unterordnung
     $theSubOrders = Species::getTaxonomyLevel($pdo, $lutSys, 4); // sind nur 2
 
-    echo "<h1>".$theOrder."</h1>";
+    echo "<h1>".$theOrder."</h1><br>";
     echo "<div class='row'>";
 
     if (count($theSubOrders)>0) {
       foreach($theSubOrders as $soID => $so) {
 
-        echo "  <div class='col-lg-6 col-md-6 col-sm-12 col-xs-12' style='border-right: 1px solid #f0f0f0;'>";
-        echo "    <h2>".$so[0]['name_sc']." - ".$so[0]['name_ge']."</h2>";
-      //  echo "    <hr>";
+        echo "  <div class='col-lg-6 col-md-6 col-sm-12 col-xs-12' style='border-right: 0px solid #f0f0f0;'>";
+        echo "    <h2>".$so[0]['name_sc']." - ".$so[0]['name_ge']."</h2><br>";
+      //  echo "";
         // Ebene 3 - Familien
         $theFamilies = Species::getTaxonomyWithinLevel($pdo, $lutSys, 5, "subOrderID", $soID);
 
         if (count($theFamilies)>0) {
             foreach($theFamilies as $fID => $f) {
-              echo "<hr>";
-              echo "<h3>".$f[0]['name_sc']." - ".$f[0]['name_ge']."</h3>";
-              echo "<hr>";
+              echo "";
+              echo "<h3>".$f[0]['name_sc']." - ".$f[0]['name_ge']."</h3><br>";
+              echo "";
               // Ebene 4 - Unterfamilien
               $theSubFamilies = Species::getTaxonomyWithinLevel($pdo, $lutSys, 6, "familyID", $fID);
               if (count($theSubFamilies)>0) {
@@ -179,11 +217,11 @@
     echo "<h1>".$theOrder."</h1>";
     echo "<div class='row'>";
     echo "  <div class='col-lg-6 col-md-6 col-sm-12 col-xs-12' style='border-right: 1px solid #f0f0f0;'>";
-    echo "<hr>";
-    echo "<h3>Mantidae - Gottesanbeterinnen</h3>";
-    echo "<hr>";
+    echo "";
+    echo "<h3>Mantidae - Gottesanbeterinnen</h3><br>";
+    echo "";
     // Ebene 4 - Unterfamilien
-    echo "<h4>Mantinae - Gottesanbeterinnen</h4>";
+    echo "<h4>Mantinae</h4>";
 
     // Ebene 5 - Arten
     $theSpecies = Species::getSpeciesInTaxonomyLevel($pdo, $tblSpecies, $lutSys, 3000, "subFamilyID");

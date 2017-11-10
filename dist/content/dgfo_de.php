@@ -1,4 +1,4 @@
-<?php
+﻿<?php
   // deutschsprachige Hauptseite der dgfo
 ?>
 
@@ -7,8 +7,8 @@
 
   <div class="row">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-      <h1>Orthopterenforschung für den Erhalt der biologischen Vielfalt </h1>
-      <h2>Aufgaben und Ziele</h2>
+      <p><h1>Orthopterenforschung für den Erhalt der biologischen Vielfalt </h1></p></br>
+      <p><h3>Aufgaben und Ziele</h3></p></br>
     </div>
   </div>
   <div class="row">
@@ -18,95 +18,62 @@
         Die Deutsche Gesellschaft für Orthopterologie e.V. (DGfO) fördert den
         wissenschaftlichen Austausch auf allen Gebieten der Orthopterenforschung
         in Mitteleuropa. Sie hat sich zum Ziel gesetzt, den Wissensstand über
-        Heuschrecken und nah verwandten Artengruppen innerhalb der Insektengruppe
-        der Geradflügler (Orthoptera) voranzutreiben und dient somit dem Schutz
-        der mitteleuropäischen Orthopteren. Ein wesentlicher Schwerpunkt der
-        Tätigkeiten liegt dabei auf naturschutzrelevanten Fragestellungen.
-      </p>
+        Heuschrecken und nah verwandte Artengruppen innerhalb der Geradflügler (Orthoptera) voranzutreiben. Ein wesentlicher Schwerpunkt der
+        Tätigkeiten liegt dabei auf naturschutzrelevanten Fragestellungen. Die Arbeit der DGfO dient damit primär dem Schutz der Orthopteren als Teil der biologischen Vielfalt Mitteleuropas.
+      </p></br>
       <p>
         Unsere Haupttätigkeiten umfassen:
       </p>
       <ul class="dgfo">
-        <li>
+        <p><li>
           Forschung auf allen Gebieten der Orthopterologie (z.B.
           Taxonomie, Morphologie, Ökologie, Faunistik, Physiologie)
-        </li>
-        <li>
+        </li></p>
+        <p><li>
           Herausgabe der wissenschaftlichen Zeitschrift
-          <a href="./articulata/">ARTICULATA</a></li>
-        <li>
+          <a href="./articulata/">ARTICULATA</a></li></p>
+        <p><li>
           Zusammenarbeit mit wissenschaftlichen Einrichtungen,
           Naturschutzverbänden und Behörden zum Erhalt der Lebensgrundlagen
           der Orthopteren
-        </li>
-        <li>
+        </li></p>
+        <p><li>
           Organisation der <a href="./aktuelles/jahrestagungen">Jahrestagungen</a>
           zum Zwecke des wissenschaftlichen Austauschs
-        </li>
+        </li></p></br>
       </ul>
-    </div> <!-- Ende linke Seite -->
-    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h3 class="panel-title">Satzung</h3>
-        </div>
-        <div class="panel-body">
-          <div class="row">
-            <div class="col-sm-12 col-xs-12">
-              <p>
-                Hier finden Sie Informationen zur Mitgliedschaft in der DGfO.
-              </p>
-              <p>
-                <a href="./dgfo/satzung">
-                  <button type="button" name="button" class="btn btn-block btn-success">Satzung</button>
-                </a>
-              </p>
-              <!-- <ul class="dgfo">
-                <li><a href="./dgfo/satzung">Satzung</a></li>
-              </ul> -->
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> <!-- Ende rechte Seite -->
-  </div>
-  <div class="row">
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-      <h2>Geschichte der DGfO</h2>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+    
+<hr>
+      <h3>Chronik der Gesellschaft</h3></br>
+   
+
+ 
+    
+
       <p>
         Die DGfO wurde im Jahr 1988 auf Initiative Von Dr. Kurt Harz in Endsee
         (Kreis Ansbach, Bayern) gegründet und als gemeinnütziger Verein anerkannt.
-        Seit der Gründerversammlung bis ins Jahr 2000 führte Dr. Klaus-Gerhard
+        Vom Zeitpunkt der Gründerversammlung an bis ins Jahr 2000 führte Dr. Klaus-Gerhard
         Heller den Vorsitz der Gesellschaft. Von 2000 bis 2010 war Prof. Dr.
         Peter Detzel der erste Vorsitzende der DGfO. Auf der Mitgliederversammlung
         während der Jahrestagung in Mainz 2010 wurde Prof. Dr. Thomas Fartmann
-        zum neuen ersten Vorsitzenden gewählt.
+        zum neuen Ersten Vorsitzenden gewählt.
       </p>
       <p>
         Die DGfO besteht derzeit aus über 500 Mitgliedern, die sich ehrenamtlich
         für die Orthopterenforschung engagieren. Seit der Gründung der DGfO im
-        Jahr 1988 wurden bisher 31 ARTICULATA-Bände, sowie 14 ARTICULATA-Beihefte
+        Jahr 1988 wurden bisher 31 <a href="./articulata/">ARTICULATA</a>-Bände, sowie 14 <a href="./articulata/">ARTICULATA</a>-Beihefte
         zu speziellen Themen der Orthopterologie publiziert. Zudem wurden bisher
         14 Jahrestagungen veranstaltet. Im März 2016 wurde in Trier mit dem
         <em>First European Congress on Orthoptera Conservation</em> die erste gesamteuropäische
         Tagung zum Heuschreckenschutz abgehalten.
-      </p>
-    </div> <!-- Ende linke Seite -->
-    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-    </div> <!-- Ende rechte Seite -->
-  </div>
+      </p></br>
+    
+<hr>
 
-      <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-          <h2>Kurt Harz (1915–1996) | Begründer der DGfO</h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+          <h3>Kurt Harz (1915–1996) | Begründer der DGfO</h3></br>
+        
+      
           <p>
             Dr. Kurt Harz begann im Jahr 1975 mit der Herausgabe der
             <a href="./articulata/">ARTICULATA</a> als Zeitschrift für Biologie,
@@ -114,7 +81,7 @@
             von ihm zunächst privat herausgegeben und im weltweiten Schriftentausch
             verbreitet. Im Jahr 1988 erfolgte auf die Initiative von Dr. Harz die
             Gründung der DGfO, die von diesem Zeitpunkt die Herausgabe der
-            ARTICULATA übernahm. Dr. Kurt Harz war ein renommierter und geschätzter
+            <a href="./articulata/">ARTICULATA</a> übernahm. Dr. Kurt Harz war ein renommierter und geschätzter
             Wissenschaftler und überzeugender Mensch. Als Anerkennung seiner
             wissenschaftlichen Leistungen wurden ihm eine Vielzahl von Ehrungen
             verliehen, so beispielsweise die
@@ -128,16 +95,16 @@
             <a href="https://www.uni-muenchen.de/index.html" target="_blank">
               Ludwig-Maximilian-Universität München
             </a> im Jahr 1983.
-          </p>
+          </p></br>
           <p>
             Einen Überblick über seine Person und sein wissenschaftliches Schaffen
             bieten Ihnen die folgenden Publikationen:
           </p>
           <ul class="dgfo">
 
-              <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                  <li><span class="authors">Kleinert, H.</span> (1996): Nachruf auf Kurt Harz,
+              
+
+                  <p><li><span class="authors">Kleinert, H.</span> (1996): Nachruf auf Kurt Harz,
                   Begründer der Deutschen Gesellschaft für Orthopterologie.
                   Articulata 11 (2): 1–2.
                     <?php
@@ -149,14 +116,13 @@
                         echo "&nbsp;&nbsp;<label class='label label-danger'>fehlt</label>";
                       }
                     ?>
-                  </li>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                  <li><span class="authors">Detzel, P.</span> (1996):
+                  </li></p>
+                
+              
+
+                  <p><li><span class="authors">Detzel, P.</span> (1996):
                     Bibliographie der wissenschaftlichen
-                    Publikationen von Dr. Kurt Harz. Articulata 11 (2): 3–13.
+                    Publikationen von Dr. Kurt Harz. Articulata 11 (2): 3&ndash;13.
                     <?php
                       if (file_exists("downloads/articulata/articulata_XI_1996/detzel_1996.pdf")) {
                     ?>
@@ -166,13 +132,10 @@
                         echo "&nbsp;&nbsp;<label class='label label-danger'>fehlt</label>";
                       }
                     ?>
-                  </li>
-                </div>
+                  </li></p>
+                
 
-              </div>
-              <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                  <li><span class="authors">Heller, K.-G. </span> (1998):
+                  <p><li><span class="authors">Heller, K.-G. </span> (1998):
                     Liste der von Kurt Harz (*1915-†1996) beschriebenen Taxa
                     (1963–1998). Articulata 13 (1): 5–10.
                     <?php
@@ -184,12 +147,10 @@
                         echo "&nbsp;&nbsp;<label class='label label-danger'>fehlt</label>";
                       }
                     ?>
-                  </li>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                  <li><span class="authors">Heller, K.-G. </span> (1999):
+                  </li></p>
+               
+            
+                  <p><li><span class="authors">Heller, K.-G. </span> (1999):
                     Liste der von Kurt Harz (*1915–†1996) beschriebenen Taxa (1963–1998).
                     Articulata 14 (1): 205. (Ergänzungen).
                     <?php
@@ -201,57 +162,171 @@
                         echo "&nbsp;&nbsp;<label class='label label-danger'>fehlt</label>";
                       }
                     ?>
-                  </li>
-                </div>
-              </div>
-          </ul>
-        </div><!-- Ende linke Seite -->
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-        </div> <!-- Ende rechte Seite -->
+                  </li></p></br>
+                
+          </ul><hr>
+        </div>
+         
+
+    
+<!-- Ende linke Seite -->
+  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+       <!-- Termine -->
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">TERMINE</h3>
+        </div>
+        <div class="panel-body">
+          <!-- Termin -->
+          <div class="row">
+            <div class="col-sm-12 col-xs-12">
+              <h4>23.&ndash;25. März 2018</h4>
+              <p>
+                15. Jahrestagung der DGfO im Naturkundemuseum Potsdam  <br>
+                <ul class="dgfo"><li><a href="downloads/tagungen/2018_15_jahrestagung_dgfo_potsdam_ankuendigung.pdf" target="_blank">Flyer &nbsp;&nbsp;<i class='fa fa-file-pdf-o' aria-hidden='true'></i></a></li></ul>
+              </p>
+            </div>
+          </div>
+          <!-- naechster Termin -->
+          <hr>
+          <div class="row">
+            <div class="col-sm-12 col-xs-12">
+              <h4>21.&ndash;22. Juli 2017</h4>
+              <p>
+                Seminar der Umweltakademie Baden-Württemberg: Bioindikatoren der
+                Landschaft: Heuschrecken – Zeigerarten <br>
+                <ul class="dgfo"><li><a href="2017_seminar_umweltakademie_bw.pdf" target="_blank">Flyer &nbsp;&nbsp;<i class='fa fa-file-pdf-o' aria-hidden='true'></i></a></li></ul>
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
+      <!-- Tagungen -->
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">TAGUNGEN</h4>
+        </div>
+        <div class="panel-body">
+          <div class="row">
+            <div class="col-sm-12 col-xs-12">
+             Hier finden Sie alle Informationen zur nächsten DGfO-Jahrestagung, sowie eine Übersicht über vergangene Tagungen:</p> 
+                 <ul class="dgfo">
+                <li><a href="./aktuelles/jahrestagungen" target="_blank">
+                  
+                    Jahrestagungen
+                 
+                </a></li></ul>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">SATZUNG</h3>
+        </div>
+        <div class="panel-body">
+          <div class="row">
+            <div class="col-sm-12 col-xs-12">
+              <p>
+                Hier finden Sie weitere Informationen zu den Grundsätzen der DGfO:
+              
+                        <ul class="dgfo">
+        <li><a href="./dgfo/satzung" target="_blank">Satzung</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+<div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">KONTAKT | DGfO</h3>
+        </div>
+        <div class="panel-body">
+          <div class="row">
+            <div class="col-sm-12 col-xs-12">
+             <h4><p>Deutsche Gesellschaft für Orthopterologie</p><p>Prof. Dr. Thomas Fartmann</p></h4>
+                 <p>
+                
+		c/o Universität Osnabrück<br>
+		Abteilung für Biodiversität und Landschaftsökologie<br>
+		Barbarastraße 11 <br>
+                DE-49076 Osnabrück
+              </p>
+              <p>
+                <strong>E-Mail:</strong> <script type="text/javascript">
+        //<![CDATA[
+        <!--
+        var x="function f(x){var i,o=\"\",ol=x.length,l=ol;while(x.charCodeAt(l/13)!" +
+        "=55){try{x+=x;l+=l;}catch(e){}}for(i=l-1;i>=0;i--){o+=x.charAt(i);}return o" +
+        ".substr(0,ol);}f(\")221,\\\"meozpo1`r((e9&=700\\\\(+%.63!Y020\\\\I200\\\\13" +
+        "0\\\\f330\\\\dn\\\\SY@ZF120\\\\220\\\\sKI200\\\\XE\\\\\\\\hIHDIWP@F1j'sovpy" +
+        "z4I)uwcx/o1.#demsows-voe320\\\\010\\\\730\\\\420\\\\630\\\\\\\"(f};o nruter" +
+        "};))++y(^)i(tAedoCrahc.x(edoCrahCmorf.gnirtS=+o;721=%y;i=+y)221==i(fi{)++i;" +
+        "l<i;0=i(rof;htgnel.x=l,\\\"\\\"=o,i rav{)y,x(f noitcnuf\")"                  ;
+        while(x=eval(x));
+        //-->
+        //]]>
+        </script>
+              </p>
+              
+                        
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+</div>
+
+ <!-- Ende rechte Seite -->
+
 
       <!-- Vorstand -->
       <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-          <h2>Vorstand</h2>
+       <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+
+          <h3>Vorstand der Gesellschaft</h3></br>
         </div>
       </div>
 
       <!-- 1. Vorsitzender -->
       <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+       <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+
           <div class="panel panel-default">
             <div class="panel-heading">
-              <h3 class="panel-title">1. Vorsitzender</h3>
+              <h3 class="panel-title">Erster Vorsitzender</h3>
             </div>
             <div class="panel-body">
-              <h3>Prof. Dr. Thomas Fartmann</h3>
+            
+                   <h4>Prof. Dr. Thomas Fartmann</h4>
+
               <div class="row">
-                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4">
-                  <figure>
+                  </div><div class="col-lg-2 col-md-3 col-sm-4 col-xs-4">
+<figure>
                       <img src="images/people/fartmann.jpg" alt="Thomas Fartmann" class="img-rounded img-responsive">
                   </figure>
                 </div>
-                <div class="col-lg-10 col-md 9 col-sm-8 col-xs-8">
-                  <p>
-                    Prof. Dr. Thomas Fartmann, Jahrgang 1968, Studium der Diplom-Geographie,
+<div class="col-lg-10 col-md 9 col-sm-8 col-xs-8">
+                  
+                    <p>Thomas Fartmann, Jahrgang 1968. Studium der Diplom-Geographie,
                     Studienrichtung Landschaftsökologie, Westfälische Wilhelms-Universität
                     (WWU) Münster, Diplom (1995); Wissenschaftlicher Mitarbeiter/Projektleiter
-                    in einem Landschaftsökologischen Planungsbüro (1995-2001);
-                    Dozent/Forscher WWU Münster (2001-2014); Promotion in Landschaftsökologie,
+                    in einem Landschaftsökologischen Planungsbüro (1995&ndash;2001);
+                    Dozent/Forscher WWU Münster (2001&ndash;2014); Promotion in Landschaftsökologie,
                     WWU Münster (2002); Habilitation in Ökologie und Biogeographie,
-                    WWU Münster (2007); Vertretung der Professur für Ökologie an der
+                    WWU Münster (2007); Seit 2010 1. Vorsitzender der Deutschen Gesellschaft für Orthopterologie; Vertretung der Professur für Ökologie an der
                     Universität Osnabrück (2013-2016); Ernennung zum außerplanmäßigen Professor
-                    in Ökologie, Universität Osnabrück (2015); seit 2016 Leiter der Abteilung
-                    Biodiversität und Landschaftsökologie an der Universität Osnabrück.
-                  </p>
-                  <p>
-                    Seit 2010 1. Vorsitzender der Deutschen Gesellschaft für Orthopterologie
-                  </p>
-                  <p>
+                    in Ökologie, Universität Osnabrück (2015); seit 2016 Leiter der <a href="http://fartmann.net/" target="_blank">Abteilung
+                    Biodiversität und Landschaftsökologie</a> an der <a href="https://www.biologie.uni-osnabrueck.de/arbeitsgruppen/biodiversitaet_und_landschaftsoekologie.html" target="_blank">Universität Osnabrück</a>.
+                  
                     Autor zahlreicher wissenschaftlicher Publikationen aus den Bereichen Tierökologie, Naturschutz und Vegetationsökologie.
                   </p>
-                </div>
+               
+               <p><strong>E-Mail:</strong> <a href="mailto: t.fartmann@uos.dede">t.fartmann(at)uos.de</a></p>
               </div>
             </div>
           </div>
@@ -260,13 +335,14 @@
 
       <!-- 2. Vorsitzender -->
       <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+
           <div class="panel panel-default">
             <div class="panel-heading">
-              <h3 class="panel-title">2. Vorsitzender</h3>
+              <h3 class="panel-title">Zweiter Vorsitzender</h3>
             </div>
             <div class="panel-body">
-              <h3>Dr. Josef Tumbrinck</h3>
+              <h4>Josef Tumbrinck</h4>
               <div class="row">
                 <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4">
                   <figure>
@@ -275,20 +351,21 @@
                 </div>
                 <div class="col-lg-10 col-md 9 col-sm-8 col-xs-8">
                   <p>
-                    Josef Tumbrinck, 1965 geboren in Münster/Westfalen.
-                    Studium der Landschaftsökologie an der Westfälischen Wilhelms-Universität Münster (Diplom 1995)
-                    Danach wissenschaftlicher Mitarbeiter am Institut für Landschaftsökologie (Prof. Dr. Hermann Mattes)
-                    1989 Europäischer Umweltpreis Kategorie „Jugendinitiativen für die Umwelt“.
-                    1991 Umweltpreis der Stadt Münster.
-                    Seit 1996 Landesvorsitzender des NABU NRW
-                    (<a href="http://www.nabu-nrw.de/" target="_blank">www.nabu-nrw.de</a>).
-                    Ab 2001 dort hauptamtlicher Landesvorsitzender
-                    Stellv. Vorsitzender der Deutschen Gesellschaft für Orthopterologie seit 2000
-                    Zuletzt Veröffentlichung einer Checkliste über die Heuschrecken von Zypern (2006)
+                    Josef Tumbrinck, 1965 geboren in Münster (Westfalen).
+                    Studium der Landschaftsökologie an der Westfälischen Wilhelms-Universität Münster (WWU) (Diplom 1995);
+                    Danach wissenschaftlicher Mitarbeiter an der WWU;
+                    1989 Europäischer Umweltpreis Kategorie "Jugendinitiativen für die Umwelt";
+                    1991 Umweltpreis der Stadt Münster;
+                    Seit 1996 Landesvorsitzender des 
+                    <a href="http://www.nabu-nrw.de/" target="_blank">NABU NRW</a>;
+                    Seit 2001 dort hauptamtlicher Landesvorsitzender;
+                    Seit 2000 Stellvertrender Vorsitzender der Deutschen Gesellschaft für Orthopterologie;
+                    Zuletzt Veröffentlichung einer Checkliste über die Heuschrecken von Zypern (2006);
                     Laufende Doktorarbeit über die
-                    &bdquo;<em>Revision der Tetrigiden von Neu Guinea und den angrenzenden Inseln</em>&ldquo;
-                    (<a href="http://http//www.papua-insects.nl/insect%20orders/Orthoptera/Tetrigidae/Tetrigidae.htm" target="_blank">Verzeichnis der derzeit bekannten Arten</a>)
+                    "Revision der Tetrigiden von Neuguinea und den angrenzenden Inseln"
+                    (<a href="http://www.papua-insects.nl/insect%20orders/Orthoptera/Tetrigidae/Tetrigidae.htm" target="_blank">Verzeichnis der derzeit bekannten Arten</a>)
                   </p>
+<p><strong>E-Mail:</strong> <a href="mailto: josef.tumbrinck@nabu-nrw.de">josef.tumbrinck(at)nabu-nrw.de.de</a></p>
                 </div>
               </div>
             </div>
@@ -298,13 +375,14 @@
 
       <!-- Schriftführer -->
       <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+
           <div class="panel panel-default">
             <div class="panel-heading">
               <h3 class="panel-title">Schriftführer</h3>
             </div>
             <div class="panel-body">
-              <h3>Dr. Jens Schirmel</h3>
+              <h4>Dr. Jens Schirmel</h4>
               <div class="row">
                 <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4">
                   <figure>
@@ -313,18 +391,20 @@
                 </div>
                 <div class="col-lg-10 col-md 9 col-sm-8 col-xs-8">
                   <p>
-                    Jens Schirmel,  geboren in Münster (1979), Studium der
-                    Diplom-Landschaftsökologie an der Universität Münster (2000-2007),
-                    Freiberuflicher Landschaftsökologe (2007), Dissertation an der
-                    Biologischen Station Hiddensee, Universität Greifswald (2008-2011),
-                    Wissenschaftlicher Mitarbeiter am Institut für Umweltwissenschaften,
-                    Universität Koblenz-Landau (seit 2011). Schriftführer der Deutschen
-                    Gesellschaft für Orthopterologie seit 2014. Forschungsschwerpunkte
-                    in den Bereichen Biodiversität, Landnutzungswandel,
+                    Jens Schirmel,  1979 geboren in Münster  (Westfalen). Studium der
+                    Diplom-Landschaftsökologie an der Westfälischen Wilhelms-Universität Münster (WWU) (2000&ndash;2007);
+                    Freiberuflicher Landschaftsökologe (2007); Dissertation an der
+                    Biologischen Station Hiddensee, Universität Greifswald (2008&ndash;2011);
+                    Seit 2011 Wissenschaftlicher Mitarbeiter am <a href="https://www.uni-koblenz-landau.de/de/landau/fb7/umweltwissenschaften/oekosystemanalyse/mitarbeiter/wissenschaftler/jens-schirmel/jens-schirmel" target="_blank">
+Institut für Umweltwissenschaften der Universität Koblenz-Landau</a>,
+                    ; Seit 2014 Schriftführer der Deutschen
+                    Gesellschaft für Orthopterologie; Forschungsschwerpunkte
+                    in den Bereichen Biodiversität, Landnutzungswandel;
                     Naturschutzbiologie und Invasionsökologie mit Fokus auf Arthropoden
                     (Heuschrecken, Laufkäfer). Autor zahlreicher wissenschaftlicher
                      Publikationen.
                   </p>
+<p><strong>E-Mail:</strong> <a href="mailto: schirmel@uni-landau.de">schirmel(at)uni-landau.de</a></p>
                 </div>
               </div>
             </div>
@@ -335,13 +415,14 @@
 
       <!-- Kassenwart -->
       <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+
           <div class="panel panel-default">
             <div class="panel-heading">
               <h3 class="panel-title">Kassenwart</h3>
             </div>
             <div class="panel-body">
-              <h3>Edgar Baierl</h3>
+              <h4>Edgar Baierl</h4>
               <div class="row">
                 <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4">
                   <figure>
@@ -362,13 +443,14 @@
 
       <!-- Schriftleiter -->
       <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+
           <div class="panel panel-default">
             <div class="panel-heading">
-              <h3 class="panel-title">Schriftleiter der ARTICULATA</h3>
+              <h3 class="panel-title">Schriftleiter</h3>
             </div>
             <div class="panel-body">
-              <h3>Georg Waeber</h3>
+              <h4>Georg Waeber</h4>
               <div class="row">
                 <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4">
                   <figure>
@@ -379,35 +461,37 @@
                   <p>
                     Georg Waeber, 1961 geboren in Nürnberg.
                     Studium der Biologie an der Universität Erlangen-Nürnberg
-                    Diplomarbeit über &bdquo;Gesang und Taxonomie der europäischen
+                    Diplomarbeit über "Gesang und Taxonomie der europäischen
                     <em>Stenobothrus</em>- und <em>Omocestus</em>-Arten
-                    (Orthoptera, Acrididae)&ldquo;, Diplomabschluss 1989.
-                    Von 1986 bis 1991 tierökologische Erfassungen im Auftrag der ÖFA
-                    (Schwabach), des Bayerischen Landesamtes für Umwelt und der
-                    Universität Erlangen-Nürnberg.
-                    Seit 1991 Gesellschafter der Ökologisch-Faunistischen
-                    Arbeitsgemeinschaft (ÖFA) in Schwabach (www.oefa-bayern.de).
-                    In diesem Planungsbüro freiberufliche Tätigkeit als Ökologe und
-                    naturschutzfachlicher Gutachter.
-                    Seit 1996 Angehöriger der Naturschutzwacht der Stadt Schwabach.
+                    (Orthoptera, Acrididae)", Diplomabschluss 1989;
+                    1986&ndash;1991 tierökologische Erfassungen im Auftrag der ÖFA
+                    (Schwabach); des Bayerischen Landesamtes für Umwelt und der
+                    Universität Erlangen-Nürnberg;
+                    Seit 1991 Gesellschafter der <a href="http://oefa-bayern.de/" target="_blank">Ökologisch-Faunistischen
+                    Arbeitsgemeinschaft (ÖFA)</a> in Schwabach; 
+                    in diesem Planungsbüro freiberufliche Tätigkeit als Ökologe und
+                    naturschutzfachlicher Gutachter;
+                    Seit 1996 Angehöriger der Naturschutzwacht der Stadt Schwabach;
                     Mitglied der Deutschen Gesellschaft für Orthopterologie seit
-                    Gründung im Jahre 1989 und verantwortlicher Redakteur (Schriftleiter)
-                    der Zeitschrift ARTICULATA seit 2004.
-                    Mitautor des Grundlagenwerkes &bdquo;Heuschrecken in Bayern&ldquo;.
+                    Gründung im Jahre 1989 und seit 2004 verantwortlicher Redakteur (Schriftleiter)
+                    der Zeitschrift <a href="./articulata/">ARTICULATA</a>;
+                    Mitautor des Grundlagenwerkes "Heuschrecken in Bayern".
                   </p>
+<p><strong>E-Mail:</strong> <a href="mailto: articulata@dgfo-articulata.de">articulata(at)dgfo-articulata.de</a></p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
+
+
+      </div>
 
     </div>
 
 
   </div>
-
 
 
 </div>

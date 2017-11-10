@@ -6,51 +6,38 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-      <h1>Forschungsförderung</h1>
+      <h1>Forschungsförderung der DGfO</h1></br>
     </div>
   </div>
   <div class="row">
     <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
-      <h2>Ihre Spende für innovative Forschung</h2>
+      <h3>Ihre Spende für innovative Forschungsideen</h3></br>
       <p>
-        Die DGfO fördert innovative Forschungsarbeiten auf allen Gebieten der Orthopterologie. Mit Ihrer Spende unterstützen Sie die Projekte
-        junger Wissenschaftler und lesiten ihren persönlichen Beitrag zum Erhalt der biologischen Vielfalt 
-        (Spendenkonto: Postbank Nürnberg, IBAN DE92 7601 0085 0015 0478 57,
-        BIC: PBNKDEFFXXX, Stichwort: Forschungsförderung). Die eingeworbenen
-        Spenden werden zweckgebunden jungen Wissenschaftlern zur Verfügung
-        gestellt. Eine inhaltliche Zusammenfassung bisher geförderte Projekte können auf dieser Seite eingesehen werden
-      </p>
+        Die Deutsche Gesellschaft für Orthopterologie (DGfO) fördert innovative Forschungsarbeiten auf allen Gebieten der Orthopterologie. Mit Ihrer Spende unterstützen Sie die Projekte
+        junger Wissenschaftler und leisten damit gleichzeitig Ihren persönlichen Beitrag zum Erhalt der biologischen Vielfalt. Wenn Sie die Arbeit von Nachwuchswissenschaftler fördern möchten, überweisen Sie uns Ihre Spende bitte auf unser 
+        Spendenkonto: Postbank Nürnberg, IBAN DE92 7601 0085 0015 0478 57,
+        BIC: PBNKDEFFXXX, Stichwort: Forschungsförderung. Die eingeworbenen
+        Spenden werden zweckgebunden ausgewählten Wissenschaftlern zur Verfügung
+        gestellt, die einen Antrag auf Forschungsförderung gestellt haben. Inhaltliche Zusammenfassungen der bisher geförderten Projekte können auf dieser Seite eingesehen werden.
+      </p><br><hr>
 
-      <h2>Antrag auf Forschungsförderung</h2>
+      <h3>Antrag auf Forschungsförderung</h3></br>
       <p>
-        Förderfähig sind junge Wissenschaftler (bis 32 Jahre), die innovative
+        Förderfähig sind junge Wissenschaftler (bis zu einem Alter von 32 Jahren), die innovative
         Forschung im Bereich der Orthopterologie betreiben wollen. Der
         geographische Bezugsraum ist die gesamte Paläarktis. Anträge auf
         Forschungsförderung können jeweils bis zum 30. Juni eines Jahres beim
-        1. Vorsitzenden der DGfO (Prof. Dr. Thomas Fartmann,
-        <script type="text/javascript">
-//<![CDATA[
-<!--
-var x="function f(x){var i,o=\"\",ol=x.length,l=ol;while(x.charCodeAt(l/13)!" +
-"=55){try{x+=x;l+=l;}catch(e){}}for(i=l-1;i>=0;i--){o+=x.charAt(i);}return o" +
-".substr(0,ol);}f(\")221,\\\"meozpo1`r((e9&=700\\\\(+%.63!Y020\\\\I200\\\\13" +
-"0\\\\f330\\\\dn\\\\SY@ZF120\\\\220\\\\sKI200\\\\XE\\\\\\\\hIHDIWP@F1j'sovpy" +
-"z4I)uwcx/o1.#demsows-voe320\\\\010\\\\730\\\\420\\\\630\\\\\\\"(f};o nruter" +
-"};))++y(^)i(tAedoCrahc.x(edoCrahCmorf.gnirtS=+o;721=%y;i=+y)221==i(fi{)++i;" +
-"l<i;0=i(rof;htgnel.x=l,\\\"\\\"=o,i rav{)y,x(f noitcnuf\")"                  ;
-while(x=eval(x));
-//-->
-//]]>
-</script>
-      ) als pdf-Datei eingereicht werden. Die Anträge (max. 2 DIN A4 Seiten) sollen
+        1. Vorsitzenden der DGfO <a href="mailto:t.fartmann@uos.de" title="">Prof. Dr. Thomas Fartmann</a>
+   
+       als pdf-Datei eingereicht werden. Die Anträge (Umfang max. 2 DIN A4 Seiten) sollten
       ein Motivationsschreiben sowie eine kurze Darstellung über die benötigten
       finanziellen Mittel und deren Verwendung beinhalten. Die maximale Fördersumme
       beträgt 2.500 € pro Antrag. Über die Vergabe der Fördermittel entscheiden
-      zwei Mitglieder des DGfO-Vorstandes. Geförderte Projekte sollen nach
-      Abschluss der Studien als Vortrag auf der DGfO-Tagung vorgestellt werden.
-      </p>
+      zwei Mitglieder des DGfO-Vorstandes. Geförderte Projekte sollten nach
+      Abschluss der Studien als Vortrag auf der nachfolgenden <a href="aktuelles/jahrestagungen" target="_blnal">DGfO-Tagung</a> vorgestellt werden.
+      </p><br><hr>
 
-      <h2>Geförderte Projekte</h2>
+      <h3>Geförderte Projekte</h3></br>
       <ul class="dgfo">
         <li >Martin Felix Wedel,
           <a href="https://www.uni-koblenz-landau.de/de/unikold-start" target="_blank">Universität Koblenz Landau</a>:
@@ -92,53 +79,44 @@ while(x=eval(x));
       <!-- Kontakt -->
       <div class="panel panel-default">
         <div class="panel-heading">
-          <h3 class="panel-title">Kontakt</h3>
+          <h3 class="panel-title">KONTAKT | FORSCHUNGSFÖRDERUNG</h3>
         </div>
         <div class="panel-body">
           <div class="row">
             <div class="col-sm-12 col-xs-12">
-              <p>
-                Prof. Dr. Thomas Fartmann <br>
-                Barbarastraße 11 <br>
-                49076 Osnabrück
+             
+		<h4>Deutsche Gesellschaft für Orthopterologie</h4><h4>Prof. Dr. Thomas Fartmann</h4>
+                 <p>
+                
+		c/o Universität Osnabrück<br>
+		Abteilung für Biodiversität und Landschaftsökologie<br>
+		Barbarastraße 11 <br>
+                DE-49076 Osnabrück
               </p>
               <p>
-                E-Mail: <script type="text/javascript">
-        //<![CDATA[
-        <!--
-        var x="function f(x){var i,o=\"\",ol=x.length,l=ol;while(x.charCodeAt(l/13)!" +
-        "=55){try{x+=x;l+=l;}catch(e){}}for(i=l-1;i>=0;i--){o+=x.charAt(i);}return o" +
-        ".substr(0,ol);}f(\")221,\\\"meozpo1`r((e9&=700\\\\(+%.63!Y020\\\\I200\\\\13" +
-        "0\\\\f330\\\\dn\\\\SY@ZF120\\\\220\\\\sKI200\\\\XE\\\\\\\\hIHDIWP@F1j'sovpy" +
-        "z4I)uwcx/o1.#demsows-voe320\\\\010\\\\730\\\\420\\\\630\\\\\\\"(f};o nruter" +
-        "};))++y(^)i(tAedoCrahc.x(edoCrahCmorf.gnirtS=+o;721=%y;i=+y)221==i(fi{)++i;" +
-        "l<i;0=i(rof;htgnel.x=l,\\\"\\\"=o,i rav{)y,x(f noitcnuf\")"                  ;
-        while(x=eval(x));
-        //-->
-        //]]>
-        </script>
+                <strong>E-Mail:</strong> <a href="mailto:t.fartmann@uos.de" title="">t.fartmann(at)uos.de</a>
               </p>
             </div>
           </div>
         </div>
       </div>
-      <p>&nbsp;</p>
+      
       <!-- Kontakt -->
       <div class="panel panel-default">
         <div class="panel-heading">
-          <h3 class="panel-title">Bankverbindung Spendenkonto</h3>
+          <h3 class="panel-title">SPENDENKONTO</h3>
         </div>
         <div class="panel-body">
           <div class="row">
             <div class="col-sm-12 col-xs-12">
-              <p>
-                Deutsche Gesellschaft für Orthopterologie e.V. <br>
-                Postbank Nürnberg <br>
-                IBAN: 7601 0085 0015 0478 57 <br>
-                BIC: PBNKDEFFXXX
+              
+                <h4>Deutsche Gesellschaft für Orthopterologie</h4>
+                <p>Postbank Nürnberg <br>
+                <strong>IBAN:</strong> 7601 0085 0015 0478 57 <br>
+                <strong>BIC:</strong> PBNKDEFFXXX
               </p>
               <p>
-                Stichwort: <strong>Forschungsförderung</strong>
+                <strong>Stichwort:</strong> Forschungsförderung
               </p>
             </div>
           </div>

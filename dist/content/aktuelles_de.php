@@ -1,4 +1,4 @@
-<?php
+﻿<?php
   // deutschsprachige Hauptseite der aktuellen Informationen
 
   include_once "oo/news.php";
@@ -15,13 +15,13 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-      <h1>Aktuelle Informationen</h1>
+      <h1>Aktuelles</h1></br>
     </div>
   </div>
 
   <div class="row">
-    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-8">
-      <h2>Aktuelles</h2>
+    <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+     
 <?php
   if (count($theNews)>0) {
     echo "<div class='row'>";
@@ -29,7 +29,7 @@
 
     for ($i=0; $i<count($theNews); $i++) {
       list($y,$m,$d) = explode("-", $theNews[$i]->newsDate);
-      echo "  <h3>".$d.".".$m.".".$y."</h3>";
+      echo "  <h3><small>".$d.".".$m.".".$y."</small></h3>";
       echo "  <h3>".$theNews[$i]->newsTitle."</h3>";
       echo $theNews[$i]->newsText; // muss formatiert in der DB liegen
       echo "<hr>";
@@ -55,11 +55,12 @@
     <!-- rechte Seite -->
 
     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-      <h2>Termine</h2>
+      <h2></h2>
+ 
       <!-- Termine -->
       <div class="panel panel-default">
         <div class="panel-heading">
-          <h3 class="panel-title">Termine</h3>
+          <h3 class="panel-title">TERMINE</h3>
         </div>
         <div class="panel-body">
           <!-- Termin -->
@@ -68,7 +69,7 @@
               <h4>23.-25. März 2018</h4>
               <p>
                 15. Jahrestagung der DGfO im Naturkundemuseum Potsdam  <br>
-                <a href="downloads/tagungen/2018_15_jahrestagung_dgfo_potsdam_ankuendigung.pdf" target="_blank">Flyer &nbsp;&nbsp;<i class='fa fa-file-pdf-o' aria-hidden='true'></i></a>
+                <ul class="dgfo"><li><a href="downloads/tagungen/2018_15_jahrestagung_dgfo_potsdam_ankuendigung.pdf" target="_blank">Flyer &nbsp;&nbsp;<i class='fa fa-file-pdf-o' aria-hidden='true'></i></a></li></ul>
               </p>
             </div>
           </div>
@@ -80,7 +81,7 @@
               <p>
                 Seminar der Umweltakademie Baden-Württemberg: Bioindikatoren der
                 Landschaft: Heuschrecken – Zeigerarten <br>
-                <a href="2017_seminar_umweltakademie_bw.pdf" target="_blank">Flyer &nbsp;&nbsp;<i class='fa fa-file-pdf-o' aria-hidden='true'></i></a>
+                <ul class="dgfo"><li><a href="2017_seminar_umweltakademie_bw.pdf" target="_blank">Flyer &nbsp;&nbsp;<i class='fa fa-file-pdf-o' aria-hidden='true'></i></a></li></ul>
               </p>
             </div>
           </div>
@@ -89,25 +90,59 @@
       <!-- Tagungen -->
       <div class="panel panel-default">
         <div class="panel-heading">
-          <h3 class="panel-title">Tagungen</h3>
+          <h4 class="panel-title">TAGUNGEN</h4>
         </div>
         <div class="panel-body">
           <div class="row">
             <div class="col-sm-12 col-xs-12">
-              <p>
-                Hier finden Sie Informationen zur nächsten und
-                einen Rückblick der vergangenen
-                <a href="./aktuelles/jahrestagungen">
-                  <button type="button" name="button" class="btn btn-success">
-                    Jahrestagungen
-                  </button>
-                </a>
+             Hier finden Sie alle Informationen zur nächsten DGfO-Jahrestagung, sowie einen Übersicht vergangener Tagungen: </p>
+                 <ul class="dgfo">
+                <li><a href="./aktuelles/jahrestagungen" target="_blank">Jahrestagungen
+                 
+                </a></li></ul>
               </p>
             </div>
           </div>
         </div>
       </div>
-
+<!-- Kontakt -->
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">KONTAKT | DGfO</h3>
+        </div>
+        <div class="panel-body">
+          <div class="row">
+            <div class="col-sm-12 col-xs-12">
+             
+		<h4><p>Deutsche Gesellschaft für Orthopterologie</p><p>Prof. Dr. Thomas Fartmann</p></h4>
+                 <p>
+                
+		c/o Universität Osnabrück<br>
+		Abteilung für Biodiversität und Landschaftsökologie<br>
+		Barbarastraße 11 <br>
+                DE-49076 Osnabrück
+              </p>
+              <p>
+                <strong>E-Mail:</strong> <script type="text/javascript">
+        //<![CDATA[
+        <!--
+        var x="function f(x){var i,o=\"\",ol=x.length,l=ol;while(x.charCodeAt(l/13)!" +
+        "=55){try{x+=x;l+=l;}catch(e){}}for(i=l-1;i>=0;i--){o+=x.charAt(i);}return o" +
+        ".substr(0,ol);}f(\")221,\\\"meozpo1`r((e9&=700\\\\(+%.63!Y020\\\\I200\\\\13" +
+        "0\\\\f330\\\\dn\\\\SY@ZF120\\\\220\\\\sKI200\\\\XE\\\\\\\\hIHDIWP@F1j'sovpy" +
+        "z4I)uwcx/o1.#demsows-voe320\\\\010\\\\730\\\\420\\\\630\\\\\\\"(f};o nruter" +
+        "};))++y(^)i(tAedoCrahc.x(edoCrahCmorf.gnirtS=+o;721=%y;i=+y)221==i(fi{)++i;" +
+        "l<i;0=i(rof;htgnel.x=l,\\\"\\\"=o,i rav{)y,x(f noitcnuf\")"                  ;
+        while(x=eval(x));
+        //-->
+        //]]>
+        </script>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p>&nbsp;</p>
     </div>
 
   </div>
