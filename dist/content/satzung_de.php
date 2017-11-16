@@ -4,21 +4,25 @@
 
 <div class="container-fluid">
   <div class="row">
-    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-      <h1>Satzung der DGfO</h1></br>
-</div></div>
-      
+    <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+      <h1>Satzung der DGfO </h1>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+        <?php include_once "includes/snippet_search.php"; ?>
+    </div>
+  </div>
+
  <div class="row">
     <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-      <h3>Artikel 1: Name und Sitz </h3></li></ul>
+      <h3>Artikel 1: Name und Sitz </h3>
       <ol class="dgfo">
         <p><li>Der Verein führt den Namen &bdquo;Deutsche Gesellschaft für Orthopterologie e.V.&ldquo; (DGfO)</li></p>
         <p><li>Er hat seinen Sitz in Erlangen</li></p>
         <p><li>Er wurde am 12.11.1988 in Endsee, Kreis Ansbach, gegründet</li></p>
         <p><li>Er ist in das Vereinsregister eingetragen und erhält den Zusatz e.V.</li></p>
         <p><li>Geschäftsjahr ist das Kalendarjahr</li>
-      </ol></li></p></ul></br><hr>
-      <h3>Artikel 2: Zweck des Vereins</h3></br>
+      </ol></li></p></ul><br><hr>
+      <h3>Artikel 2: Zweck des Vereins</h3><br>
       <p>
         Der Zweck der DGfO ist der wissenschaftliche Austausch von Ergebnissen auf
         allen Gebieten der Orthopterenforschung vor allem im deutschsprachigen Raum.
@@ -34,9 +38,9 @@
           Europas (künftiges Erscheinen mindestens einmal jährlich)</li></p>
         <p><li>Das Zusammenarbeiten mit Naturschutzverbänden und Behörden mit dem
           Ziel der Erhaltung der Lebensgrundlagen der Orthopteren.</li></p>
-      </ul></br><hr>
+      </ul><br><hr>
 
-      <h3>Artikel 3: Gemeinnützigkeit</h3></br>
+      <h3>Artikel 3: Gemeinnützigkeit</h3>
       <ol class="dgfo">
         <p><li>Der Verein verfolgt ausschließlich und unmittelbar gemeinnützige und
           förderungswürdige Zwecke im Sinne des Abschnittes &bdquo;steuerbegünstigte
@@ -44,8 +48,8 @@
         <p><li>Der Verein ist selbstlos tätig, er verfolgt keine eigenwirtschaftlichen Zwecke.</li></p>
         <p><li>Die Mittel des Vereins dürfen nur für satzungmäßige Zwecke verwendet werden.</li></p>
         <p><li>Die Mitglieder erhalten keine Zuwendungen aus Mitteln des Vereins in ihrer Eigenschaft als Mitglieder. Es darf keine Person durch Ausgaben, die den Zwecken des Vereins fremd sind, oder durch unverhältnismäßig hohe Vergütungen begünstigt werden.</li></p>
-      </ol></br><hr>
-      <h3>Artikel 4: Mitglieder</h3></br>
+      </ol><br><hr>
+      <h3>Artikel 4: Mitglieder</h3><br>
       <ol class="dgfo">
         <p><li> Mitglieder können alle natürlichen und juristischen Personen werden, die sich zu den Zielen des Vereins bekennen.</li></p>
         <p><li>Die Mitgliedschaft wird erworben durch einen schriftlichen Antrag auf Aufnahme. Er ist angenommen, wenn keine wichtigen Gründe entstehen.</li></p>
@@ -58,7 +62,8 @@
         </li>
       </ol>
 <br><hr>
-      <h3>Artikel 5: Beitrag</h3></br>
+
+      <h3>Artikel 5: Beitrag</h3>
       <p>
         Die Höhe des Beitrages für Mitglieder wird auf Vorschlag des Vorstandes
         von der Mitgliederversammlung festgelegt.
@@ -67,8 +72,8 @@
         <p><li>DGfO-Mitglieder aus Osteuropa und Asien, die natürliche Personen sind,
           können die Articulata auf Antrag kostenlos beziehen. Über den Antrag
           entscheidet der Vorstand.</li></p>
-      </ul></br><hr>
-      <h3>Artikel 6: Organe des Vereins</h3></br>
+      </ul><br><hr>
+      <h3>Artikel 6: Organe des Vereins</h3><br>
       <p>
         Die Organe des Vereins sind:
       </p>
@@ -77,8 +82,9 @@
         <p><li>der Vorstand</li></p>
         <p><li>der Beirat</li></p>
       </ul>
-</br><hr>
-      <h3>Artikel 7: Die Mitgliederversammlung</h3></br>
+<br><hr>
+
+      <h3>Artikel 7: Die Mitgliederversammlung</h3>
       <ol class="dgfo">
         <p><li>Stimmberechtigt ist jedes Mitglied. Familien-, Firmen-,
           Vereinsmitgliederschaften usw. werden durch eine stimmberechtigte
@@ -108,9 +114,9 @@
         <p><li>Eine außerordentliche Mitgliederversammlung kommt zustande, wenn wenigstens 20% der Mitglieder dies wünschen und schriftlich beim Vorstand beantragen.</li></p>
         <p><li>Die Mitgliederversammlung fasst ihre Beschlüsse mit einfacher Mehrheit der anwesenden Mitglieder, soweit in dieser Sitzung nichts anderes bestimmt ist.</li></p>
         <p><li>Die Mitgliederversammlung ist beschlußfähig, wenn mindestens 5% der Mitglieder anwesend sind. Bei Beschlußfähigkeit ist der Vorstand verpflichtet, binnen 4 Wochen eine zweite Mitgliederversammlungmit derselben Tagesordnung einzuberufen. Diese ist dann ohne Rücksicht auf die Zahl der Erscheinenden beschlußfähig, worauf in der Einladung hinzuweisen ist.</li></p>
-      </ol></br><hr>
+      </ol><br><hr>
 
-      <h3>Artikel 8: Der Vorstand</h3></br>
+      <h3>Artikel 8: Der Vorstand</h3>
       <ol class="dgfo">
         <p><li>Der Vorstand besteht aus 3 gleichberechtigten Mitgliedern und setzt sich zusammen aus:
           <ul class="dgfo">
@@ -130,20 +136,20 @@
         <p><li>Der Vorstand faßt Beschlüsse mit einfacher Mehrheit, bei Stimmengleichheit gilt ein Antrag als abgelehnt.</li></p>
         <p><li>Der Verein wird durch jeweils zwei Vorstandsmitglieder gemeinsam vertreten.
           Im Innenverhältnis gilt, dass die Vorstandsmitglieder jeweils zwei aus ihrer Mitte bestimmen, die die gemeinsame rechtliche Vertretung nach außen hin wahrnehmen.</li></p>
-      </ol></br><hr>
+      </ol><br><hr>
 
-      <h3>Artikel 9: Der Beirat</h3></br>
+      <h3>Artikel 9: Der Beirat</h3>
       <ol class="dgfo">
         <p><li>Dem Beirat obliegt die Beratung des Vorstandes.</li></p>
         <p><li>Dem Beirat gehört eine vom Vorstand zu bestimmende Anzahl sachkundiger Mitglieder an.</li></p>
-      </ol></br><hr>
+      </ol><br><hr>
 
-      <h3>Artikel 10: Beurkundung der Beschlüsse</h3></br>
+      <h3>Artikel 10: Beurkundung der Beschlüsse</h3><br>
       <p>
         Die in der Mitgliederversammlung und im Vorstand gefaßten Beschlüsse sind schriftlich niederzulegen und von dem jeweiligen Versammlungsleiter und dem Protokollführer der Sitzung zu unterzeichnen.
-      </p></br><hr>
+      </p><br><hr>
 
-      <h3>Artikel 11: Auflösung oder Aufhebung des Vereins</h3></br>
+      <h3>Artikel 11: Auflösung oder Aufhebung des Vereins</h3><br>
       <p>
         Bei Auflösung oder Aufhebung des Vereins oder bei Wegfall seines bisherigen
         Zwecks fällt das vorhandene Vermögen zu gleichen Teilen an den Bund
@@ -154,7 +160,7 @@
       </p></div>
 <!-- rechte Spalte -->
     <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-
+      <h2></h2>
       <!-- Kontakt -->
       <div class="panel panel-default">
         <div class="panel-heading">
@@ -170,7 +176,26 @@
                 Forststr. 7 <br>
                 DE–76829 Landau
               </p>
-              <p><strong>E-Mail:</strong> <a href="mailto:schirmel@uni-landau.de">schirmel(at)uni-landau.de</a></p>
+              <p><strong>E-Mail:</strong>
+                <script type="text/javascript">
+                //<![CDATA[
+                <!--
+                var x="function f(x){var i,o=\"\",l=x.length;for(i=l-1;i>=0;i--) {try{o+=x.c" +
+                "harAt(i);}catch(e){}}return o;}f(\")\\\"function f(x,y){var i,o=\\\"\\\\\\\""+
+                "\\\\,l=x.length;for(i=0;i<l;i++){if(i==123)y+=i;y%=127;o+=String.fromCharCo" +
+                "de(x.charCodeAt(i)^(y++));}return o;}f(\\\"\\\\\\\\\\\\037\\\\\\\\023\\\\\\" +
+                "\\036\\\\\\\\013mdlw*rtn|lfe$/2n0y`vr(J5uxswhr$lCIKQI@Jg]GC\\\\\\\\006@L@KQ" +
+                "D\\\\\\\\034WQi\\\\\\\\024\\\\\\\\027LPNWY\\\\\\\\000b\\\\\\\\035\\\\\\\\03" +
+                "4c|0'-/5%,&\\\\\\\\0139#'b<0<75 x3=eu:b\\\\\\\\177wdPZ\\\"\\\\,123)\\\"(f};" +
+                ")lo,0(rtsbus.o nruter};)i(tArahc.x=+o{)--i;0=>i;1-l=i(rof}}{)e(hctac};l=+l;" +
+                "x=+x{yrt{)23=!)31/l(tAedoCrahc.x(elihw;lo=l,htgnel.x=lo,\\\"\\\"=o,i rav{)x" +
+                "(f noitcnuf\")"                                                              ;
+                while(x=eval(x));
+                //-->
+                //]]>
+                </script>
+
+              </p>
             </div>
           </div>
         </div>

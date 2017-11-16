@@ -4,17 +4,20 @@
 
 <div class="container-fluid">
 
-
   <div class="row">
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
       <h1>Deutsche Gesellschaft für Orthopterologie (DGfO) </h1>
-      <h2>Vorstand</h2>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+        <?php include_once "includes/snippet_search.php"; ?>
     </div>
   </div>
+
 
   <!-- 1. Vorsitzender -->
   <div class="row">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <h2>Vorstand</h2>
       <div class="panel panel-default">
         <div class="panel-heading">
           <h3 class="panel-title">1. Vorsitzender</h3>

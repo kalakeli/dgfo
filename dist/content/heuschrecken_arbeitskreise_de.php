@@ -5,8 +5,16 @@
 
 <div class="container-fluid">
   <div class="row">
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
       <h1>Heuschrecken und Fangschrecken</h1>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+        <?php include_once "includes/snippet_search.php"; ?>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
       <h2>Regionale Arbeitskreise</h2>
       <p>
         Hier finden Sie Informationen zu den regionalen Arbeitskreisen. Bitte

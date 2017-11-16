@@ -26,6 +26,7 @@
     			  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
     			  crossorigin="anonymous"></script>
 
+    <!-- <script src='https://www.google.com/recaptcha/api.js'></script> -->
   </head>
   <body>
 
@@ -56,59 +57,65 @@
 <?php include_once "includes/nav_de.php"; ?>
 
 <div class="container-fluid header">
-  <img src="images/logos/dgfo_dietrich_bornhalm_th.jpg" id="dgfo_logo" class="img-responsive" alt="Logo DGFO (Dietrich Bornhalm)">
+  <!-- <img src="images/logos/dgfo_dietrich_bornhalm_th.jpg" id="dgfo_logo" class="img-responsive" alt="Logo DGFO (Dietrich Bornhalm)"> -->
   <h1 class="title"><span id="title_normal">Deutsche Gesellschaft für Orthopterologie e.V.</span><span id="title_mobile">DGfO</span></h1>
   <div class="row" id="id_headerpics">
   </div>
+<?php
+  // Breadcrumbs
+  echo "<div class='container-fluid'><div class='row'>
+          <div class='col-lg-12 col-md-12 col-sm-12 col-xs-12'>";
+  // echo "<hr>";
+  echo "<div class='row'>
+          <div class='col-lg-9 col-md-9 col-sm-12 col-xs-12 breadcrumbs'>";
+  echo "<p><small>";
+  echo "<a href='./'><i class='fa fa-home' aria-hidden='true'></i></a>&nbsp;&nbsp;";
+  echo "<i class='fa fa-caret-right' aria-hidden='true'></i>&nbsp;&nbsp;";
+  if (strlen($_GET["top"])>0) {
+    echo "<a href='./".$_GET['top']."'>".strtoupper($_GET["top"])."</a>";
+  } else {
+    echo " Startseite";
+  }
+  if (strlen($_GET["sub"])>0) {
+    echo "&nbsp;&nbsp;<i class='fa fa-caret-right' aria-hidden='true'></i>&nbsp;&nbsp;";
+    echo "<a href='./".$_GET['top']."/".$_GET['sub']."'>".strtoupper($_GET["sub"])."</a>";
+  }
+  if (strlen($_GET["level2"])>0) {
+    echo "&nbsp;&nbsp;<i class='fa fa-caret-right' aria-hidden='true'></i>&nbsp;&nbsp;";
+    echo "<a href='./".$_GET['top']."/".$_GET['sub']."/".$_GET["level2"]."'>".str_ireplace('_', ' ', strtoupper($_GET["level2"]))."</a>";
+  }
+  echo "</small></p>";
+
+  // Box auf der rechten Seite der breadcrumbs
+  echo "     <div class='rightbox'>";
+  echo "<p><small>";
+  $title = ($lang == "en") ? "send us an e-mail" : "schicken Sie uns eine E-Mail";
+  echo "<a class='nosign' title='".$title."' href='mailto:t.fartmann@uos.de'><i class='fa fa-envelope' aria-hidden='true'></i></a>";
+  echo "<a href='./' onclick=\"switchLang('en');\">EN</a> |
+        <a href='./' onclick=\"switchLang('de');\">DE</a>";
+  echo "</small></p>";
+  echo "     </div>";
+  echo "  </div>";
+
+  echo "  <div class='col-lg-3 col-md-3 col-sm-12 col-xs-12 righttop'>";
+  echo "<p class='text-center'><small>";
+  echo ($lang == "en") ? "MORE INFORMATION" : "MEHR INFORMATIONEN";
+  echo "</small></p>";
+
+  echo "  </div>";
+  echo "</div>";
+  echo "</div></div></div>";
+
+  echo "<hr>";
+?>
 </div>
+
 
 
 <div class="page-wrap">
 
 
 <?php
-
-  // Breadcrumbs
-  echo "<div class='container-fluid'><div class='row'>
-          <div class='col-lg-12 col-md-12 col-sm-12 col-xs-12'>";
-  // echo "<hr>";
-  echo "<div class='row'>
-          <div class='col-lg-9 col-md-9 col-sm-12 col-xs-12'>";
-  echo "<p><small>";
-  echo "<strong>Sie sind hier: </strong>
-          <i class='fa fa-arrow-circle-right' aria-hidden='true'></i>&nbsp;&nbsp;";
-  if (strlen($_GET["top"])>0) {
-    echo "<a href='./".$_GET['top']."'>".$_GET["top"]."</a>";
-  } else {
-    echo " Startseite";
-  }
-  if (strlen($_GET["sub"])>0) {
-    echo "&nbsp;&nbsp;<i class='fa fa-arrow-circle-right' aria-hidden='true'></i>&nbsp;&nbsp;";
-    echo "<a href='./".$_GET['top']."/".$_GET['sub']."'>".$_GET["sub"]."</a>";
-  }
-  if (strlen($_GET["level2"])>0) {
-    echo "&nbsp;&nbsp;<i class='fa fa-arrow-circle-right' aria-hidden='true'></i>&nbsp;&nbsp;";
-    echo "<a href='./".$_GET['top']."/".$_GET['sub']."/".$_GET["level2"]."'>".str_ireplace('_', ' ', $_GET["level2"])."</a>";
-  }
-  echo "</small></p>";
-  echo "  </div>";
-  // SUCHE EINBLENDEN
-  echo "  <div class='col-lg-3 col-md-3 col-sm-12 col-xs-12'>";
-  $ph = ($lang == "en") ? "search species" : "Art suchen (sc / de / en)";
-
-  echo "
-          <input type='text' class='form-control' id='id_ac_s' name='getlist' placeholder='".$ph."' autocomplete='off'>
-          <span id='indicator1' style='>
-            <img src='images/loading.gif' alt='suche...'>
-          </span>
-          <div id='ac_choices' class='autocomplete'></div>
-        ";
-
-  echo "  </div>";
-  echo "</div>";
-  echo "<hr>";
-  echo "</div></div></div>";
-
 
   if (empty($_GET)) {
     $fn = "content/startseite_".$lang.".php";
@@ -173,6 +180,10 @@
             case "inhalt":
               $fn = "content/articulata_inhalt_".$lang.".php";
               if (!file_exists($fn)) $fn = "content/articulata_inhalt_de.php";
+              break;
+            case "beihefte":
+              $fn = "content/articulata_beihefte_".$lang.".php";
+              if (!file_exists($fn)) $fn = "content/articulata_beihefte_de.php";
               break;
             case "autorenrichtlinien": $fn = "content/articulata_richtlinien_".$lang.".php";
               if (!file_exists($fn)) $fn = "content/articulata_richtlinien_de.php";
@@ -240,6 +251,9 @@
       case 'impressum':
         $fn = "content/impressum_de.php";
         break;
+      case 'kontakt':
+        $fn = "content/kontakt_de.php";
+        break;
       default:
         $fn = "content/page_unknown.php";
         break;
@@ -258,13 +272,18 @@
 </div>
 
   <!-- footer -->
+
   <div class="container" id="dgfo_footer">
       <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <p class="text-muted pull-right"><small><a href="./impressum">Impressum</a></small>
-            |
-            <small>© DGfO <?php echo date("Y"); ?></small>
-           </p>
+            <p class="text-muted pull-right">
+              <img src="images/logos/dgfo_dietrich_bornhalm.jpg" id="dgfo_logo" class="img-responsive" alt="Logo DGFO (Dietrich Bornhalm)">
+              <div id="id_impressum">
+                <small><a href="./impressum">Impressum</a></small>
+                |
+                <small>© DGfO <?php echo date("Y"); ?></small>
+              </div>
+            </p>
         </div>
       </div>
   </div>

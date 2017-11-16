@@ -1,18 +1,21 @@
-<?php
+﻿<?php
   // deutschsprachige Seite Arbeitskreis NRW
 
 ?>
 
 <div class="container-fluid">
   <div class="row">
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
       <h1>Heuschrecken und Fangschrecken</h1>
-      <h2>Arbeitskreis Heuschrecken Nordrhein-Westfalen</h2>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+        <?php include_once "includes/snippet_search.php"; ?>
     </div>
   </div>
 
   <div class="row">
-    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+    <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+      <h3>Arbeitskreis Heuschrecken Nordrhein-Westfalen</h3>
       <p>
         Der <strong>Arbeitskreis zur Kartierung und zum Schutz der Heuschrecken in
         Nordrhein-Westfalen</strong> (Arbeitskreis Heuschrecken NRW) hat sich im Mai 1990
@@ -107,7 +110,8 @@
        </ul>
     </div>
     <!-- rechte seite -->
-    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+    <h2></h2>
+    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
       <div class="panel panel-default">
         <div class="panel-heading">
           <h3 class="panel-title">Ansprechpartner Nordrhein-Westfalen</h3>
@@ -151,7 +155,7 @@
 
     <!-- Artenuebersicht -->
     <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
     <?php
         // Ebene 1 - Ordnung
         $theOrder = "Checkliste der Heuschrecken in Nordrhein-Westfalen ";

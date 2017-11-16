@@ -37,6 +37,11 @@ a[href^="mailto:"]:after {
   content: "\f003 ";
   display: inline;
 }
+
+a.nosign:after {
+  content: "";
+}
+
 strong {
   color: #000;
 }
@@ -68,6 +73,11 @@ strong {
   line-height: 75px;
   background-color: #fff;
 }
+#id_impressum {
+  width: 200px;
+  position: absolute;
+  bottom: -230px; right: 350px;
+}
 
 #footerlogo {  /* bei smartphone ausblenden */
   padding-top: 4px;
@@ -87,20 +97,23 @@ h1.title {
 }
 
 ul.dgfo {
+  margin: 0;
+  padding: 0;
   list-style: none;
   margin-left: -.1em;
+  padding-left: 20px;
 }
 ol.dgfo {
   margin-left: .8em;
 }
-ul.dgfo li {
-  padding-left: .8em;
-}
+/*ul.dgfo li {
+  padding-left: 1em;
+}*/
 ul.dgfo li:before {
   content: "\f0da";
   font-family: FontAwesome;
   display: inline-block;
-  margin-left: -.8em;
+  margin-left: -.9em;
   width: .8em;
 }
 
@@ -134,6 +147,8 @@ ul.ac {
   border: 1px solid #ccc;
   border-bottom-right-radius: 4px;
   border-bottom-left-radius: 4px;
+  font-size: 16px;
+  font-weight: normal;
 }
 ul.ac li {
   border-bottom: 1px solid #e0e0e0;
@@ -272,9 +287,9 @@ ul.ac li a strong {
 
 .navigation ul li figure .navicon {
   width: auto;
-  max-width: 48px;
+  max-width: 36px;
   height: auto;
-  max-height: 80%;
+  max-height: 60%;
   position: absolute;
   top: 60%;
   left: 55%;
@@ -352,4 +367,54 @@ figcaption {
   font-style: italic;
   color: #999;
   margin: 6px 0;
+}
+
+/* --- B R E A D C R U M B S  --- */
+.breadcrumbs, .righttop {
+  background-color: #3c763d;
+  color: #fff;
+  line-height: 23px;
+  margin-top: 20px;
+  padding-top: 5px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  position: relative;
+}
+.breadcrumbs a {
+  color: #fff;
+}
+
+.rightbox {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  width: 100px;
+}
+
+.star {
+  width: 16px;
+  height: 28px;
+  vertical-align: top;
+}
+
+/* --- B O O T S T R A P    O V E R R U L E S  --- */
+.panel-default {
+  border-color: #315032;
+  /*border-color: #fff;*/
+}
+.panel-default > .panel-heading {
+  color: #fff;
+  background-color: #3c763d;
+  border-color: #315032;
+}
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #315032;
+}
+.panel-default > .panel-heading .badge {
+  color: #fff;
+  background-color: #333;
+}
+.panel-default > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #315032;
+  /*border-bottom-color: #fff;*/
 }

@@ -5,13 +5,16 @@
 
 <div class="container-fluid">
   <div class="row">
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-      <h1>ARTICULATA | Zeitschrift für Orthopterologie</h1></br>
-      <h3>Informationen zur Zeitschrift</h3></br>
+    <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+      <h1>ARTICULATA | Zeitschrift für Orthopterologie</h1>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+        <?php include_once "includes/snippet_search.php"; ?>
     </div>
   </div>
   <div class="row">
     <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+      <h3>Informationen zur Zeitschrift</h3>
       <p>
         Die ARTICULATA erscheint 1–2 x jährlich und dient der
         Veröffentlichung von wissenschaftlichen Beiträgen auf dem Gebiet der
@@ -21,7 +24,26 @@
       </p>
       <p>
         Herausgeber der ARTICULATA (ISSN 0171 – 4090) ist die DGfO mit Sitz in
-        Erlangen, vertreten durch den 1. Vositzenden <a href=mailto: t.fartmann@uos.de">Prof. Dr. Thomas Fartmann</a>.
+        Erlangen, vertreten durch den 1. Vositzenden
+        <script type="text/javascript">
+//<![CDATA[
+<!--
+var x="function f(x){var i,o=\"\",l=x.length;for(i=0;i<l;i+=2) {if(i+1<l)o+=" +
+"x.charAt(i+1);try{o+=x.charAt(i);}catch(e){}}return o;}f(\"ufcnitnof x({)av" +
+" r,i=o\\\"\\\"o,=l.xelgnhtl,o=;lhwli(e.xhcraoCedtAl(1/)3=!29{)rt{y+xx=l;=+;" +
+"lc}tahce({)}}of(r=i-l;1>i0=i;--{)+ox=c.ahAr(t)i};erutnro s.buts(r,0lo;)f}\\" +
+"\"(8),3\\\"\\\\13\\\\07\\\\03\\\\\\\\25\\\\04\\\\00\\\\\\\\16\\\\05\\\\02\\" +
+"\\\\\\6K00\\\\\\\\24\\\\0I\\\\DHWI@P?f|mtqMr98Qd=4~t_b/0)P4Vkmlr#p] 2e03\\\\"+
+"\\\\7S01\\\\\\\\24\\\\07\\\\01\\\\\\\\6902\\\\\\\\31\\\\07\\\\02\\\\\\\\30\\"+
+"\\00\\\\00\\\\\\\\01\\\\03\\\\02\\\\\\\\d-r=2(-)\\\"\\\\\\\\\\\\c/34\\\\02\\"+
+"\\00\\\\\\\\XXSN32\\\\0X\\\\04\\\\05\\\\02\\\\\\\\36\\\\0[\\\\VXXFXB00\\\\0" +
+"Y\\\\NB\\\\G\\\\\\\\K\\\\BH\\\"\\\\f(;} ornture;}))++(y)^(iAtdeCoarchx.e(od" +
+"rChamCro.fngriSt+=;o27=1y%i;+=)y38==(iif){++;i<l;i=0(ior;fthnglex.l=\\\\,\\" +
+"\\\\\"=\\\",o iar{vy)x,f(n ioctun\\\"f)\")"                                  ;
+while(x=eval(x));
+//-->
+//]]>
+</script>.
       </p>
       <p>
         Veröffentlicht werden Beiträge zur Biologie, Ökologie, Faunistik, Verbreitung und
@@ -50,7 +72,8 @@
 
         beziehen. Ältere Beiträge können von allen Interessierten kostenfrei als
         pdf-Datei heruntergeladen werden.
-      </p></br><hr>
+      </p>
+      <hr>
 
       <h3>
         Hinweise für Autoren
@@ -82,24 +105,25 @@
         //-->
         //]]>
         </script>
-      </p></br><hr>
+      </p>
+      <hr>
       <h3>
         Wissenschaftlicher Beirat
       </h3></br>
       <ul class="dgfo">
-        <li>Dr. Frank Brozowski, Dessau</li></br>
-        <li>Dr. Alfred Bruckhaus, Ratingen</li></br>
-        <li>Prof. Dr. Peter Detzel, Stuttgart</li></br>
-        <li>Prof. Dr. Thomas Fartmann, Osnabrück</li></br>
-        <li>Dr. Klaus-Gerhard Heller, Magdeburg</li></br>
-        <li>Dr. Heidrun Kleinert, Düsseldorf</li></br>
-        <li>Roy Kleukers, Leiden (NL)</li></br>
-        <li>Dr. Günter Köhler, Jena</li></br>
-        <li>Dr. Arne Lehmann, Stahnsdorf</li></br>
-        <li>Dr. Dominik Poniatowski, Osnabrück</li></br>
-        <li>Prof. Dr. Klaus Reinhold, Bielefeld</li></br>
-        <li>Dr. Jens Schirmel, Landau</li></br>
-        <li>Dr. Michael Wallaschek, Halle</li></br>
+        <li>Dr. Frank Brozowski, Dessau</li>
+        <li>Dr. Alfred Bruckhaus, Ratingen</li>
+        <li>Prof. Dr. Peter Detzel, Stuttgart</li>
+        <li>Prof. Dr. Thomas Fartmann, Osnabrück</li>
+        <li>Dr. Klaus-Gerhard Heller, Magdeburg</li>
+        <li>Dr. Heidrun Kleinert, Düsseldorf</li>
+        <li>Roy Kleukers, Leiden (NL)</li>
+        <li>Dr. Günter Köhler, Jena</li>
+        <li>Dr. Arne Lehmann, Stahnsdorf</li>
+        <li>Dr. Dominik Poniatowski, Osnabrück</li>
+        <li>Prof. Dr. Klaus Reinhold, Bielefeld</li>
+        <li>Dr. Jens Schirmel, Landau</li>
+        <li>Dr. Michael Wallaschek, Halle</li>
       </ul>
 
 
@@ -108,6 +132,7 @@
     </div>
     <!-- rechte Seite -->
     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+      <h2></h2>
       <div class="panel panel-default">
         <div class="panel-heading">
           <h3 class="panel-title">MEHR IN ARTICULATA</h3>
@@ -115,25 +140,25 @@
         <div class="panel-body">
           <p>
             <ul class="dgfo"><li><a href="./articulata/autorenrichtlinien" target="_blank">
-		
-              <i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;Autorenrichtlinien 
+
+              <i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;Autorenrichtlinien
             </a></li></ul>
           </p>
           <p>
             <ul class="dgfo"><li><a href="./articulata/inhalt">
-              
- 		<i class="fa fa-file-text-o" aria-hidden="true"></i>&nbsp;zu den Jahresbänden 
+
+ 		<i class="fa fa-file-text-o" aria-hidden="true"></i>&nbsp;zu den Jahresbänden
             </a></li></ul>
           </p>
 <p>
-            <ul class="dgfo"><li><a href="./articulata/articulata_beihefte_de">
-              
- 		<i class="fa fa-file-text-o" aria-hidden="true"></i>&nbsp;zu den Beiheften 
+            <ul class="dgfo"><li><a href="./articulata/beihefte">
+
+ 		<i class="fa fa-file-text-o" aria-hidden="true"></i>&nbsp;zu den Beiheften
             </a></li></ul>
           </p>
           <p>
             <ul class="dgfo"><li><a href="./articulata/suche">
-              <i class="fa fa-search" aria-hidden="true"></i>&nbsp;zur Suche 
+              <i class="fa fa-search" aria-hidden="true"></i>&nbsp;zur Suche
             </a></li></ul>
           </p>
         </div>
@@ -144,14 +169,33 @@
           <h3 class="panel-title">KONTAKT | REDAKTION ARTICULATA</h3>
         </div>
         <div class="panel-body">
-          
+
             <h4>Deutsche Gesellschaft für Orthopterologie</h4><h4>Georg Waeber</h4>
             <p>c/o Rennweg 9 <br>
             DE-91126 Rednitzhembach
           </p>
           <p>
-            <strong>E-Mail:</strong> <a href="mailto:articulata@dgfo-articulata.de" title="">articulata(at)dgfo-articulata.de</a>
-
+            <strong>E-Mail:</strong>
+            <script type="text/javascript">
+            //<![CDATA[
+            <!--
+            var x="function f(x){var i,o=\"\",l=x.length;for(i=l-1;i>=0;i--) {try{o+=x.c" +
+            "harAt(i);}catch(e){}}return o;}f(\")\\\"function f(x,y){var i,o=\\\"\\\\\\\""+
+            "\\\\,l=x.length;for(i=0;i<l;i++){if(i<98)y++;y%=127;o+=String.fromCharCode(" +
+            "x.charCodeAt(i)^(y++));}return o;}f(\\\"\\\\\\\\\\\\007\\\\\\\\n\\\\\\\\004" +
+            "\\\\\\\\034\\\\\\\\006\\\\\\\\010\\\\\\\\001\\\\\\\\005]\\\\\\\\002\\\\\\\\" +
+            "005\\\\\\\\020\\\\\\\\017\\\\\\\\030ll,$4k,fbwr+D8q\\\\\\\\177INPI\\\\\\\\0" +
+            "22K^ZYQAZYN]~$%\\\\\\\\\\\"\\\\)e+>:91!:9.=p\\\\\\\\004\\\\\\\\0078DH\\\\\\" +
+            "\\036\\\\\\\\005\\\\\\\\032\\\\\\\\034\\\\\\\\027I*Z&^@`qqnj~anerUs~}r2@QQN" +
+            "K\\\\\\\\\\\\\\\\FJXL\\\\\\\\000KU\\\\\\\\r\\\\\\\\035R\\\\\\\\n\\\\\\\\027" +
+            "\\\\\\\\037\\\\\\\\014\\\\\\\\010\\\\\\\\002\\\"\\\\,98)\\\"(f};)lo,0(rtsbu" +
+            "s.o nruter};)i(tArahc.x=+o{)--i;0=>i;1-l=i(rof}}{)e(hctac};l=+l;x=+x{yrt{)2" +
+            "9=!)31/l(tAedoCrahc.x(elihw;lo=l,htgnel.x=lo,\\\"\\\"=o,i rav{)x(f noitcnuf" +
+            "\")"                                                                         ;
+            while(x=eval(x));
+            //-->
+            //]]>
+            </script>
           </p>
         </div>
       </div>
@@ -161,16 +205,33 @@
           <h3 class="panel-title">KONTAKT | SCHRIFTENBEZUG</h3>
         </div>
         <div class="panel-body">
-          
+
             <h4>Deutsche Gesellschaft für Orthopterologie</h4><h4>Josef Tumbrinck </h4>
             <p>c/o NABU Nordrhein-Westfalen <br>
             Völklinger Straße 7–9 <br>
 	DE-40219 Düsseldorf
           </p>
           <p>
-            <strong>E-Mail:</strong> <a href="mailto:josef.tumbrinck@nabu-nrw.de" title="">josef.tumbrinck(at)nabu-nrw.de</a>
-
-
+            <strong>E-Mail:</strong>
+            <script type="text/javascript">
+            //<![CDATA[
+            <!--
+            var x="function f(x){var i,o=\"\",l=x.length;for(i=0;i<l;i+=2) {if(i+1<l)o+=" +
+            "x.charAt(i+1);try{o+=x.charAt(i);}catch(e){}}return o;}f(\"ufcnitnof x({)av" +
+            " r,i=o\\\"\\\"o,=l.xelgnhtl,o=;lhwli(e.xhcraoCedtAl(1/)3=!29{)rt{y+xx=l;=+;" +
+            "lc}tahce({)}}of(r=i-l;1>i0=i;--{)+ox=c.ahAr(t)i};erutnro s.buts(r,0lo;)f}\\" +
+            "\"(7)\\\\,F\\\"@L[S6F02\\\\\\\\IY21\\\\07\\\\02\\\\\\\\\\\\\\\\\\\\\\\\06\\" +
+            "\\02\\\\00\\\\\\\\01\\\\0C\\\\30\\\\06\\\\01\\\\\\\\\\\\n4\\\\00\\\\\\\\3)0" +
+            "0\\\\\\\\04\\\\00\\\\01\\\\\\\\14\\\\06\\\\02\\\\\\\\01\\\\07\\\\01\\\\\\\\" +
+            "24\\\\04\\\\02\\\\\\\\8q/804zg13\\\\0t\\\\\\\\ti\\\\>69%n;0o02\\\\\\\\..?g(" +
+            "51h#!0/00\\\\\\\\]TUSXIMT0C03\\\\\\\\QS]@n[\\\\\\\\Z@EAGJ13\\\\0t\\\\32\\\\" +
+            "0@\\\\V@2K00\\\\\\\\4@03\\\\\\\\6=psn~jp8`cafi77\\\\1j\\\\cg\\\"\\\\f(;} or" +
+            "nture;}))++(y)^(iAtdeCoarchx.e(odrChamCro.fngriSt+=;o27=1y%i;+=)y=7i=f({i+)" +
+            "i+l;i<0;i=r(foh;gten.l=x,l\\\"\\\\\\\"\\\\o=i,r va){,y(x fontincfu)\\\"\")"  ;
+            while(x=eval(x));
+            //-->
+            //]]>
+            </script>
           </p>
         </div>
       </div>

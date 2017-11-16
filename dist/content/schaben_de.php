@@ -7,13 +7,17 @@
 
 <div class="container-fluid">
   <div class="row">
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-      <h1>Schaben und Ohrwürmer</h1></br>
+    <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+      <h1>Schaben und Ohrwürmer</h1>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+        <?php include_once "includes/snippet_search.php"; ?>
     </div>
   </div>
-<h3>Schaben und Ohrwürmer in Deutschland</h3><br>
+
   <div class="row">
     <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+      <h3>Schaben und Ohrwürmer in Deutschland</h3>
       <p>
           Neben Heuschrecken und Fangschrecken interessieren wir uns auch für
           Schaben und Ohrwürmer. Die natürlichen Vorkommen der meisten Arten
@@ -48,11 +52,13 @@
 
           erstellt.</p>
 <p>Die Arten sind nach freilebenden Arten und synanthrop lebenden Arten sortiert. Innerhalb dieser Kategorien werden die Arten nach ihren Ordnungen, Familien und Unterfamilien nach geordnet. In den Unterfamilien werden die Arten in alphabetischer Reihenfolge aufgeführt.</br>
-      </p><br><hr>
+      </p>
+      <hr>
 
     </div>
     <!-- rechte Seite -->
     <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+      <h2></h2>
       <div class="panel panel-default">
         <div class="panel-heading">
           <h3 class="panel-title">KONTAKT | SCHABEN & OHRWÜRMER</h3>
@@ -60,14 +66,33 @@
         <div class="panel-body">
           <div class="row">
             <div class="col-sm-12 col-xs-12">
-             
+
                 <h4>Deutsche Gesellschaft für Orthopterologie</h4><h4>Manfred Alban Pfeifer</h4>
                 <p>Bahnhofsplatz 5 <br>
                 DE-67240 Bobenheim-Roxheim <br>
                  </p>
-                
-                <p><strong>E-Mail:</strong> <a href="mailto:heuschrecken.rlp@googlemail.com" title="">heuschrecken.rlp(at)<br>googlemail.com</a></p>
-              
+
+                <p><strong>E-Mail:</strong>
+                  <script type="text/javascript">
+                  //<![CDATA[
+                  <!--
+                  var x="function f(x){var i,o=\"\",ol=x.length,l=ol;while(x.charCodeAt(l/13)!" +
+                  "=51){try{x+=x;l+=l;}catch(e){}}for(i=l-1;i>=0;i--){o+=x.charAt(i);}return o" +
+                  ".substr(0,ol);}f(\")33,\\\"000\\\\n\\\\200\\\\120\\\\520\\\\010\\\\T330\\\\" +
+                  "710\\\\_^S100\\\\BDMFOEOHIB400\\\\cRMR1pxwx771\\\\kpte`q{,3L-R0ig~`|'$Yila/" +
+                  "l720\\\\430\\\\120\\\\630\\\\620\\\\630\\\\720\\\\030\\\\120\\\\5400\\\\730" +
+                  "\\\\000\\\\_630\\\\n\\\\500\\\\610\\\\t\\\\130\\\\200\\\\n\\\\330\\\\220\\\\"+
+                  "300\\\\r\\\\^410\\\\620\\\\410\\\\7=7zn\\\\i45<$j)zfj.RYNQDC430\\\\D@IG]EKF" +
+                  "\\\"(f};o nruter};))++y(^)i(tAedoCrahc.x(edoCrahCmorf.gnirtS=+o;721=%y;++y)" +
+                  "33<i(fi{)++i;l<i;0=i(rof;htgnel.x=l,\\\"\\\"=o,i rav{)y,x(f noitcnuf\")"     ;
+                  while(x=eval(x));
+                  //-->
+                  //]]>
+                  </script>
+
+
+                </p>
+
             </div>
           </div>
         </div>

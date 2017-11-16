@@ -13,24 +13,27 @@
     </div>
   </div>
 
-<div class="row">
-    <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12"><?php
+  <div class="row">
+    <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+      <h3>Beihefte</h3>
+<?php
   // solange kein Band gewaehlt ist, die Cover anzeigen
   if (empty($_GET["level2"])) {
 
-    echo "<h3>Jahresb&auml;nde</h3>";
-    echo "    <p>";
+    echo "<h2></h2>";
 
-    $vols = Publication::getPubVolumes($pdo, $tblPub);
-    // 'Beihefte' soll nun nicht mehr mit angezeigt werden
-    $vols = array_slice($vols, 1);
+    // ----------------------------------------------------------------------
+    // Beihefte
+    // ----------------------------------------------------------------------
+    $vols = Publication::getPubBeihefte($pdo, $tblPub);
 
     if (count($vols)>0) {
       echo "<div class='row'>";
       for ($i=0; $i<count($vols); $i++) {
-        $volStr = Publication::getYearStrForVolume($pdo, $tblPub, $vols[$i]);
-        $picStr = "articulata_".$vols[$i]."_".str_replace("-", "_", $volStr).".jpg";
-        $path = "images/cover_articulata_baende/".$picStr;
+        $volStr = Publication::getYearStrForBeiheft($pdo, $tblPub, $vols[$i]);
+
+        $picStr = "articulata_".strtolower(str_replace(" ", "_", $vols[$i]))."_".str_replace(" ", "_", $volStr).".jpg";
+        $path = "images/cover_articulata_beihefte/".$picStr;
 
         // alle 6 Hefte eine neue Zeile beginnen
         if ( (bcmod("{$i}", "6") == 0) ) {
@@ -39,21 +42,18 @@
 
         echo "  <div class='col-lg-2 col-md-2 col-sm-2 col-xs-2'>";
         if (file_exists($path)) {
-          echo "<p style='position:relative;'><figure class='cover' id='".$vols[$i]."'><a href='./articulata/inhalt/".$vols[$i]."'><img src='".$path."' alt='cover ".$picStr."' class='img-responsive img-thumbnail'></a>";
+          echo "<p style='position:relative;'><figure class='cover' id='".$vols[$i]."'><a href='./articulata/inhalt/".strtolower(str_replace(" ", "_", $vols[$i]))."'><img src='".$path."' alt='cover ".$picStr."' class='img-responsive img-thumbnail'></a>";
           echo "</figure>";
-          echo "<p><small><a href='./articulata/inhalt/".$vols[$i]."'>Band ".$vols[$i]." <br>(".$volStr.")</a></small></p>";
+          echo "<p><small><a href='./articulata/inhalt/".strtolower(str_replace(" ", "_", $vols[$i]))."'>".$vols[$i]."<br>(".$volStr.")</a></small></p>";
           echo "</p>";
         } else {
-          echo "    <p><small><a href='./articulata/inhalt/".$vols[$i]."'>Band ".$vols[$i]." <br>(".$volStr.")</a></small></p>";
+          echo "    <p><small><a href='./articulata/inhalt/".strtolower(str_replace(" ", "_", $vols[$i]))."'>".$vols[$i]." <br>(".$picStr.")</a</small>></p>";
         }
 
         echo "  </div>";
       }
       echo "</div>";
     }
-
-    echo "    </p>";
-
 
   } else {  // ++++++++++++ EIN BAND / BEIHEFT gewaehlt ++++++++++++++++++++++++
 
@@ -134,9 +134,7 @@
 ?>
     </div>
 
-
- <!-- rechte Seite -->
-
+     <!-- rechte Seite -->
     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
         <h2></h2>
       <div class="panel panel-default">
@@ -245,11 +243,6 @@
         </div>
       </div>
     </div>
-
   </div>
-
-
-
-
 
 </div>

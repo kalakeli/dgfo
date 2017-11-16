@@ -4,10 +4,14 @@
 
 <div class="container-fluid">
   <div class="row">
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-      <h1>Unterstützen Sie die DGfO durch Ihre Mitgliedschaft</h1></br>
+    <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+      <h1>Unterstützen Sie die DGfO durch Ihre Mitgliedschaft</h1>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+        <?php include_once "includes/snippet_search.php"; ?>
     </div>
   </div>
+
   <div class="row">
     <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
       <p></p><p>
@@ -21,13 +25,29 @@
       <p>
         Die Mitgliedschaft bietet Ihnen die Möglichkeit aktiv an der Arbeit unseres Vereins teilzunehmen. Mit Ihrem Jahresbeitrag erhalten Sie zudem jährlich 1&ndash;2 x die Ausgabe der
         Zeitschrift <a href="./articulata">ARTICULATA</a>.
-        Darüber hinaus werden Sie über unseren E-Mailverteiler zu unseren 
+        Darüber hinaus werden Sie über unseren E-Mailverteiler zu unseren
         <a href="./articulata/jahrestagung">Jahrestagungen</a>
         eingeladen und regelmäßig über unsere aktuellen Tätigkeiten informiert. Die Jahrestagungen finden im zweijährigen Turnus an wechselnden Orten statt.</p>
-        
+
 	<p>Detaillierte Informationen zur Mitgliedschaft können unserer <a href="./dgfo/satzung">Satzung</a>
         entnommen werden. Bei weiteren Fragen zur Mitgliedschaft steht Ihnen unser Schriftführer, Herr
-        <a href="mailto:schirmel(at)uni-landau.de">Dr. Jens Schirmel</a>
+        <script type="text/javascript">
+        //<![CDATA[
+        <!--
+        var x="function f(x){var i,o=\"\",ol=x.length,l=ol;while(x.charCodeAt(l/13)!" +
+        "=92){try{x+=x;l+=l;}catch(e){}}for(i=l-1;i>=0;i--){o+=x.charAt(i);}return o" +
+        ".substr(0,ol);}f(\")81,\\\"IAKFLSr\\\\DV500\\\\r\\\\n\\\\420\\\\410\\\\410\\"+
+        "\\000\\\\1A320\\\\1;720\\\\|u(530\\\\fun\\\\w010\\\\n7=$&:mn720\\\\/-f2'!*\\"+
+        "\"\\\\.l)QK}P^WKQ_UF610\\\\\\\\\\\\F]YNC710\\\\p620\\\\LLZO600\\\\D030\\\\1" +
+        "00\\\\n\\\\OLzjtnl4mvr{`w|v\\\"(f};o nruter};))++y(^)i(tAedoCrahc.x(edoCrah" +
+        "Cmorf.gnirtS=+o;721=%y;2=*y))y+81(>i(fi{)++i;l<i;0=i(rof;htgnel.x=l,\\\"\\\""+
+        "=o,i rav{)y,x(f noitcnuf\")"                                                 ;
+        while(x=eval(x));
+        //-->
+        //]]>
+        </script>
+
+
         als Ansprechpartner zur Verfügung. Um eine Mitgliedschaft zu beantragen senden Sie uns den vollständig
         ausgefüllten unter unterschriebenen
         <a href="./downloads/dgfo_aufnahmeantrag.pdf" target="_blank">Aufnahmeantrag
@@ -39,7 +59,7 @@
 
     <!-- rechte Spalte -->
     <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-
+      <h2></h2>
       <!-- Kontakt -->
       <div class="panel panel-default">
         <div class="panel-heading">
@@ -55,7 +75,26 @@
                 Forststr. 7 <br>
                 DE–76829 Landau
               </p>
-              <p><strong>E-Mail:</strong> <a href="mailto:schirmel@uni-landau.de">schirmel(at)uni-landau.de</a></p>
+              <p><strong>E-Mail:</strong>
+                <script type="text/javascript">
+                //<![CDATA[
+                <!--
+                var x="function f(x){var i,o=\"\",l=x.length;for(i=l-1;i>=0;i--) {try{o+=x.c" +
+                "harAt(i);}catch(e){}}return o;}f(\")\\\"function f(x,y){var i,o=\\\"\\\\\\\""+
+                "\\\\,l=x.length;for(i=0;i<l;i++){if(i==123)y+=i;y%=127;o+=String.fromCharCo" +
+                "de(x.charCodeAt(i)^(y++));}return o;}f(\\\"\\\\\\\\\\\\037\\\\\\\\023\\\\\\" +
+                "\\036\\\\\\\\013mdlw*rtn|lfe$/2n0y`vr(J5uxswhr$lCIKQI@Jg]GC\\\\\\\\006@L@KQ" +
+                "D\\\\\\\\034WQi\\\\\\\\024\\\\\\\\027LPNWY\\\\\\\\000b\\\\\\\\035\\\\\\\\03" +
+                "4c|0'-/5%,&\\\\\\\\0139#'b<0<75 x3=eu:b\\\\\\\\177wdPZ\\\"\\\\,123)\\\"(f};" +
+                ")lo,0(rtsbus.o nruter};)i(tArahc.x=+o{)--i;0=>i;1-l=i(rof}}{)e(hctac};l=+l;" +
+                "x=+x{yrt{)23=!)31/l(tAedoCrahc.x(elihw;lo=l,htgnel.x=lo,\\\"\\\"=o,i rav{)x" +
+                "(f noitcnuf\")"                                                              ;
+                while(x=eval(x));
+                //-->
+                //]]>
+                </script>
+
+              </p>
             </div>
           </div>
         </div>
@@ -69,7 +108,7 @@
             <div class="col-sm-12 col-xs-12">
               <p>
                 Hier finden Sie weitere Informationen zu den Grundsätzen der DGfO:
-              
+
                         <ul class="dgfo">
         <li><a href="./dgfo/satzung" target="_blank">Satzung</a></li>
               </ul>
@@ -91,7 +130,7 @@
               </h4>
               <p>
                 Postbank Nürnberg<br>
-             
+
                 <strong>IBAN: </strong>DE92 760100850015047857 <br>
                 <strong>BIC: </strong>PBNKDEF
               </p>

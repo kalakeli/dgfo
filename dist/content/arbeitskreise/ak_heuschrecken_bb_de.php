@@ -5,14 +5,17 @@
 
 <div class="container-fluid">
   <div class="row">
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
       <h1>Heuschrecken und Fangschrecken</h1>
-      <h2>Arbeitskreis Heuschrecken in Brandenburg und Berlin</h2>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+        <?php include_once "includes/snippet_search.php"; ?>
     </div>
   </div>
 
   <div class="row">
-    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+      <h2>Arbeitskreis Heuschrecken in Brandenburg und Berlin</h2>
       <p>
         Seit dem Erscheinen der letzten Roten Liste von Brandenburg
         (<span class="authors">Klatt et al.</span> 1999) und des vorläufigen Verbreitungsatlasses
@@ -102,7 +105,8 @@
 
     </div>
     <!-- rechte seite -->
-    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+      <h2></h2>
       <div class="panel panel-default">
         <div class="panel-heading">
           <h3 class="panel-title">Ansprechpartner Brandenburg und Berlin</h3>

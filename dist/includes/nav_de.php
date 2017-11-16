@@ -46,10 +46,11 @@
         &nbsp;
       </div>
       <figure>
-        <a href="./aktuelles" <?php echo ($_GET["top"]=="aktuelles") ? "class='active'" : ""; ?>>
+        <?php $title = ( ($lang == "ge") || ($lang == "de") ) ? "Aktuelles" : "News"; ?>
+        <a href="./aktuelles" <?php echo ($_GET["top"]=="aktuelles") ? "class='active' title='".$title."'" : " title='".$title."'"; ?>>
           <img src="images/menu/news_fff.png" class="navicon" alt="news icon" class="img-responsive">
           <figcaption>
-            <?php echo ( ($lang == "ge") || ($lang == "de") ) ? "Aktuelles" : "News"; ?>
+            <?php echo $title; ?>
           </figcaption>
         </a>
       </figure>
@@ -59,10 +60,11 @@
         &nbsp;
       </div>
       <figure>
-        <a href="./dgfo" <?php echo ($_GET["top"]=="dgfo") ? "class='active'" : ""; ?>>
+        <?php $title = ( ($lang == "ge") || ($lang == "de") ) ? "Wir über uns" : "About us"; ?>
+        <a href="./dgfo" <?php echo ($_GET["top"]=="dgfo") ? "class='active' title='".$title."'" : " title='".$title."'"; ?>>
           <img src="images/menu/aboutus_fff.png" class="navicon" alt="about us icon" class="img-responsive">
           <figcaption>
-            <?php echo ( ($lang == "ge") || ($lang == "de") ) ? "Wir über uns" : "About us"; ?>
+            <?php echo $title; ?>
           </figcaption>
         </a>
       </figure>
@@ -72,10 +74,11 @@
         &nbsp;
       </div>
       <figure>
-        <a href="./mitgliedschaft" <?php echo ($_GET["top"]=="mitgliedschaft") ? "class='active'" : ""; ?>>
+        <?php $title =  ( ($lang == "ge") || ($lang == "de") ) ? "Mitgliedschaft" : "Membership"; ?>
+        <a href="./mitgliedschaft" <?php echo ($_GET["top"]=="mitgliedschaft") ? "class='active' title='".$title."'" : " title='".$title."'"; ?>>
           <img src="images/menu/membership_fff.png" class="navicon" alt="membership icon" class="img-responsive">
           <figcaption>
-            <?php echo ( ($lang == "ge") || ($lang == "de") ) ? "Mitgliedschaft" : "Membership"; ?>
+            <?php echo $title; ?>
           </figcaption>
         </a>
       </figure>
@@ -85,10 +88,11 @@
         &nbsp;
       </div>
       <figure>
-        <a href="./forschungsfoerderung" <?php echo ($_GET["top"]=="forschungsfoerderung") ? "class='active'" : ""; ?>>
+        <?php $title = ( ($lang == "ge") || ($lang == "de") ) ? "Forschungs-<br>förderung" : "Research<br>funding"; ?>
+        <a href="./forschungsfoerderung" <?php echo ($_GET["top"]=="forschungsfoerderung") ? "class='active' title='".$title."'" : " title='".$title."'"; ?>>
           <img src="images/menu/idea_money_fff.png" class="navicon" alt="forschungsfoerderung icon" class="img-responsive">
           <figcaption>
-            <?php echo ( ($lang == "ge") || ($lang == "de") ) ? "Forschungs-<br>förderung" : "Research<br>funding"; ?>
+            <?php echo $title; ?>
           </figcaption>
         </a>
       </figure>
@@ -98,10 +102,11 @@
         <!-- <a href="#" onclick="event.preventDefault(); sh('articulata');">+</a> -->
       </div>
       <figure>
-        <a href="./articulata" <?php echo ($_GET["top"]=="articulata") ? "class='active'" : ""; ?>>
+        <?php $title = ( ($lang == "ge") || ($lang == "de") ) ? "ARTICULATA" : "ARTICULATA"; ?>
+        <a href="./articulata" <?php echo ($_GET["top"]=="articulata") ? "class='active' title='".$title."'" : " title='".$title."'"; ?>>
           <img src="images/menu/publication_fff.png" class="navicon" alt="publication icon" class="img-responsive">
           <figcaption>
-            ARTICULATA
+            <?php echo $title; ?>
           </figcaption>
         </a>
       </figure>
@@ -111,10 +116,11 @@
         &nbsp;
       </div>
       <figure>
-        <a href="./heuschrecken" <?php echo ($_GET["top"]=="heuschrecken") ? "class='active'" : ""; ?>>
+        <?php $title = ( ($lang == "ge") || ($lang == "de") ) ? "Heuschrecken | Fangschrecken" : "Orthoptera | Mantidae"; ?>
+        <a href="./heuschrecken" <?php echo ($_GET["top"]=="heuschrecken") ? "class='active' title='".$title."'" : " title='".$title."'"; ?>>
           <img src="images/menu/grasshopper_fff.png" class="navicon" alt="grasshopper icon" class="img-responsive">
           <figcaption>
-            <?php echo ( ($lang == "ge") || ($lang == "de") ) ? "Heuschrecken <br>Fangschrecken" : "Orthoptera<br>Mantidae"; ?>
+            <?php echo $title; ?>
           </figcaption>
         </a>
       </figure>
@@ -124,11 +130,11 @@
         &nbsp;
       </div>
       <figure>
-        <a href="./schaben" <?php echo ($_GET["top"]=="schaben") ? "class='active'" : ""; ?>>
+        <?php $title =  ( ($lang == "ge") || ($lang == "de") ) ? "Schaben <br> Ohrwürmer" : "Blattodea <br> Dermaptera"; ?>
+        <a href="./schaben" <?php echo ($_GET["top"]=="schaben") ? "class='active' title='".$title."'" : " title='".$title."'"; ?>>
           <img src="images/menu/cockroach_fff.png" class="navicon" alt="cockroach icon" class="img-responsive">
           <figcaption>
-            <?php echo ( ($lang == "ge") || ($lang == "de") ) ? "Schaben <br>Ohrwürmer" : "Blattodea<br>Dermaptera"; ?>
-
+            <?php echo $title; ?>
           </figcaption>
         </a>
       </figure>
@@ -138,10 +144,11 @@
         &nbsp;
       </div>
       <figure>
-        <a href="./kontakt" <?php echo ($_GET["top"]=="kontakt") ? "class='active'" : ""; ?>>
+        <?php $title =  ( ($lang == "ge") || ($lang == "de") ) ? "Kontakt" : "Contact"; ?>
+        <a href="./kontakt" <?php echo ($_GET["top"]=="kontakt") ? "class='active' title='".$title."'" : " title='".$title."'"; ?>>
           <img src="images/menu/contact_fff.png" class="navicon" alt="contact icon" class="img-responsive">
           <figcaption>
-            <?php echo ( ($lang == "ge") || ($lang == "de") ) ? "Kontakt" : "Contact"; ?>
+            <?php echo $title; ?>
           </figcaption>
         </a>
       </figure>

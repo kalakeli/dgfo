@@ -7,13 +7,17 @@
 
 <div class="container-fluid">
   <div class="row">
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-      <h1>Heuschrecken und Fangschrecken</h1></br>
+    <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+      <h1>Heuschrecken und Fangschrecken</h1>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+        <?php include_once "includes/snippet_search.php"; ?>
     </div>
   </div>
+
   <div class="row">
     <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
-      <h3>Heuschrecken und Fangschrecken in Europa</h3></br>
+      <h3>Heuschrecken und Fangschrecken in Europa</h3>
       <p>
         In Europa leben derzeit mehr als 1.000 Heuschreckenarten, von denen nach
         der aktuellen Europäischen Roten Liste mehr als ein Viertel als gefährdet
@@ -31,9 +35,10 @@
         Für weitere Informationen über Vorkommen, Gefährdung  und die regionale Verbreitung der
         Heuschrecken nutzen Sie bitte
      die Quellen in unserer Literaturübersicht.
-      </p></br><hr>
+      </p>
+      <hr>
 
-      <h3>Heuschrecken und Fangschrecken in Deutschland</h3></br>
+      <h3>Heuschrecken und Fangschrecken in Deutschland</h3>
       <p>
         Die folgende Übersicht gibt Ihnen einen Überblick über alle aktuell in
         Deutschland nachgewiesenen Fang und Heuschreckenarten. Darüber hinaus werden in der Checkliste auch ausgestorbene, verschollene oder im Freiland extrem selten beobachtete Arten (Ausnahmeerscheinungen) aufgeführt.</p>
@@ -47,7 +52,8 @@
         Innerhalb der Unterfamilien werden die Arten in alphabetischer Reihenfolge
         aufgeführt. Mit einem Klick auf die Arten erhalten Sie Informationen zur Verbreitung und zum Gefährdungsstatus der Arten
         innerhalb Deutschlands.
-      </p></br><hr>
+      </p>
+      <hr>
 
 
     </div>
@@ -62,12 +68,12 @@
         <div class="panel-body">
           <div class="row">
             <div class="col-sm-12 col-xs-12">
-              <p><p>
+              <p>
                 <ul class="dgfo">
         <li>
                     <a href="heuschrecken/arbeitskreise/nrw/">
                   Arbeitskreis Heuschrecken NRW</li></ul>
-                  
+
                 </a>
               </p>
               <p>
@@ -81,7 +87,7 @@
           </div>
         </div>
       </div>
-      
+
       <!-- Literatur -->
       <div class="panel panel-default">
         <div class="panel-heading">
@@ -91,12 +97,9 @@
           <div class="row">
             <div class="col-sm-12 col-xs-12">
               <p>
-              
-              </p>
-              <p>
                  <ul class="dgfo">
         <li><a href="heuschrecken/literatur/">
-                 
+
                     Heuschreckenliteratur
                   </li>
                 </a>
@@ -114,7 +117,7 @@
             <div class="col-sm-12 col-xs-12">
              <h4><p>Deutsche Gesellschaft für Orthopterologie</p><p>Prof. Dr. Thomas Fartmann</p></h4>
                  <p>
-                
+
 		c/o Universität Osnabrück<br>
 		Abteilung für Biodiversität und Landschaftsökologie<br>
 		Barbarastraße 11 <br>
@@ -136,8 +139,8 @@
         //]]>
         </script>
               </p>
-              
-                        
+
+
             </div>
           </div>
         </div>
@@ -153,14 +156,14 @@
     // Ebene 2 - Unterordnung
     $theSubOrders = Species::getTaxonomyLevel($pdo, $lutSys, 4); // sind nur 2
 
-    echo "<h1>".$theOrder."</h1><br>";
+    echo "<h1>".$theOrder."</h1>";
     echo "<div class='row'>";
 
     if (count($theSubOrders)>0) {
       foreach($theSubOrders as $soID => $so) {
 
         echo "  <div class='col-lg-6 col-md-6 col-sm-12 col-xs-12' style='border-right: 0px solid #f0f0f0;'>";
-        echo "    <h2>".$so[0]['name_sc']." - ".$so[0]['name_ge']."</h2><br>";
+        echo "    <h2>".$so[0]['name_sc']." - ".$so[0]['name_ge']."</h2>";
       //  echo "";
         // Ebene 3 - Familien
         $theFamilies = Species::getTaxonomyWithinLevel($pdo, $lutSys, 5, "subOrderID", $soID);

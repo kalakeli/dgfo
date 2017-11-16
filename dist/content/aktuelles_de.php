@@ -14,14 +14,18 @@
 
 <div class="container-fluid">
   <div class="row">
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-      <h1>Aktuelles</h1></br>
+    <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+      <h1>Aktuelle Informationen</h1></br>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+        <?php include_once "includes/snippet_search.php"; ?>        
     </div>
   </div>
 
+
   <div class="row">
     <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
-     
+
 <?php
   if (count($theNews)>0) {
     echo "<div class='row'>";
@@ -56,7 +60,7 @@
 
     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
       <h2></h2>
- 
+
       <!-- Termine -->
       <div class="panel panel-default">
         <div class="panel-heading">
@@ -98,7 +102,7 @@
              Hier finden Sie alle Informationen zur nächsten DGfO-Jahrestagung, sowie einen Übersicht vergangener Tagungen: </p>
                  <ul class="dgfo">
                 <li><a href="./aktuelles/jahrestagungen" target="_blank">Jahrestagungen
-                 
+
                 </a></li></ul>
               </p>
             </div>
@@ -113,10 +117,10 @@
         <div class="panel-body">
           <div class="row">
             <div class="col-sm-12 col-xs-12">
-             
+
 		<h4><p>Deutsche Gesellschaft für Orthopterologie</p><p>Prof. Dr. Thomas Fartmann</p></h4>
                  <p>
-                
+
 		c/o Universität Osnabrück<br>
 		Abteilung für Biodiversität und Landschaftsökologie<br>
 		Barbarastraße 11 <br>

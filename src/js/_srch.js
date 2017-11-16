@@ -23,9 +23,10 @@ $( "#srchArticulata" ).submit(function( event ) {
 
         if (response.valueOf().substr(0,3)==="F -")
         {
-            $( "#srchresult" ).addClass("alert alert-danger");
-            $( "#srchresult" ).html("<h4>Ups ... </h4><p>"+response.valueOf().substr(3)+"</p> ");
-            $( "#srchresult" ).fadeIn("slow");
+    //        $( "#srchresult" ).addClass("alert alert-danger");
+    //        $( "#srchresult" ).html("<h4>Ups ... </h4><p>"+response.valueOf().substr(3)+"</p> ");
+            $( "#srchresult" ).html("<h3>Suchergebnisse</h3><p>Leider konnten keine Einträge für diese Suche gefunden werden</p> ");
+    //        $( "#srchresult" ).fadeIn("slow");
 
         } else {
             // $( "#srchresult" ).addClass("alert alert-success");

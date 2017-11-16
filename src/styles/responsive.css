@@ -46,12 +46,13 @@
   .header {
     transition: all .5s ease;
     width: 100% !important;
-    transform:translate(-100px);
+    transform:translate(-150px);
   }
   .header.open {
     transition: all .5s ease;
     transform:translate(-0px);
   }
+
   #dgfo_footer {
     left: 0px !important;
     width: 100% !important;
@@ -60,9 +61,6 @@
     right: 80px !important;
   }
 
-  /*h1 {
-    font-size: 32px !important;
-  }*/
   h2 {
     font-size: 28px !important;
   }
@@ -71,6 +69,7 @@
   }
   h1.title {
     font-size: 42px;
+    padding-left: 100px;
   }
   #title_normal {
     transition: all .5s ease;
@@ -83,6 +82,10 @@
     opacity: 1 !important;
   }
 
+  /* Artnamen in der mobilen Ansicht linksbuendig */
+  #id_spname_sc {
+    text-align: left !important;
+  }
 
   /* dtsche Titel bei der Checkliste ausblenden */
   .speciessmallscr {

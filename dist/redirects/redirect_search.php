@@ -39,7 +39,8 @@
     if (count($theArticles)>0) {
       $str .= "<div class='row'>";
       $str .= "  <div class='col-lg-10 col-md-10 col-sm-10 col-xs-10'>";
-      $str .= "    <h3><label class='label label-primary'>".count($theArticles)."</label> passende Einträge</h3>";
+      $str .= "    <h3>Suchergebnisse</h3>";
+      // $str .= "    <h3><label class='label label-primary'>".count($theArticles)."</label> passende Einträge</h3>";
       $str .= "  </div>";
       $str .= "</div>";
       $str .= "<hr>";
