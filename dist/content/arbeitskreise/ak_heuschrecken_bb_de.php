@@ -67,7 +67,8 @@
 
       <h3>Wichtige Literatur aus Brandenburg</h3>
       <ul class="dgfo">
-        <li><span class="authors">Mattes, H.</span> (1997): Ökologische
+        <li>
+          <span class="authors">Mattes, H.</span> (1997): Ökologische
           Untersuchungen zur Heuschreckenfauna in Brandenburg und Westfalen.
           <em>Arbeiten aus dem Institut für Landschaftsökologie</em> 3. 188 S.</li>
         <li>
@@ -75,7 +76,8 @@
           (2000): Vorläufiger Verbreitungsatlas der Heuschrecken Brandenburgs. -
           <em>Märkische Entomologische Nachrichten</em> 2000 (1): 72 S.
         </li>
-        <li><span class="authors">Klatt, R.</span> (2011): Kartierung der
+        <li>
+          <span class="authors">Klatt, R.</span> (2011): Kartierung der
           Heuschrecken des Landes Brandenburg – Aufruf zur Mitarbeit.
           <em>Märkische Entomologische Nachrichten</em> 13 (1): 90.</li>
         <li>
@@ -85,7 +87,8 @@
             <em>Naturschutz und Landschaftpflege in Brandenburg</em> 8 (1):
             Beilage. 19 S.
         </li>
-        <li><span class="authors">Lehmann, A.W.</span> (2011):
+        <li>
+          <span class="authors">Lehmann, A.W.</span> (2011):
           Aufruf zur Mitarbeit – Verbreitungsatlas der Länder Berlin und
           Brandenburg. <em>Articulata</em> 26: 93–94.</li>
         <li>
