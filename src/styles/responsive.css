@@ -13,6 +13,7 @@
   }
 }
 
+
 @media screen and (max-width:768px) {
 
   /* navigation - header und page-wrap muessen auch verschoben werden */
@@ -94,6 +95,13 @@
 
   /* headerpics ausblenden */
   #id_headerpics {
+    display: none;
+  }
+}
+/* fuer sehr kleine displays sollten die Cover ausgeblendet werden */
+@media screen and (min-width:100px) and (max-width:500px) {
+
+  .img-thumbnail {
     display: none;
   }
 }
