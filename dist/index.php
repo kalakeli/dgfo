@@ -63,48 +63,48 @@
   </div>
 <?php
   // Breadcrumbs
-  echo "<div class='container-fluid'><div class='row'>
-          <div class='col-lg-12 col-md-12 col-sm-12 col-xs-12'>";
-  // echo "<hr>";
-  echo "<div class='row'>
-          <div class='col-lg-9 col-md-9 col-sm-12 col-xs-12 breadcrumbs'>";
-  echo "<p><small>";
-  echo "<a href='./'><i class='fa fa-home' aria-hidden='true'></i></a>&nbsp;&nbsp;";
-  echo "<i class='fa fa-caret-right' aria-hidden='true'></i>&nbsp;&nbsp;";
-  if (strlen($_GET["top"])>0) {
-    echo "<a href='./".$_GET['top']."'>".strtoupper($_GET["top"])."</a>";
-  } else {
-    echo " Startseite";
-  }
-  if (strlen($_GET["sub"])>0) {
-    echo "&nbsp;&nbsp;<i class='fa fa-caret-right' aria-hidden='true'></i>&nbsp;&nbsp;";
-    echo "<a href='./".$_GET['top']."/".$_GET['sub']."'>".strtoupper($_GET["sub"])."</a>";
-  }
-  if (strlen($_GET["level2"])>0) {
-    echo "&nbsp;&nbsp;<i class='fa fa-caret-right' aria-hidden='true'></i>&nbsp;&nbsp;";
-    echo "<a href='./".$_GET['top']."/".$_GET['sub']."/".$_GET["level2"]."'>".str_ireplace('_', ' ', strtoupper($_GET["level2"]))."</a>";
-  }
-  echo "</small></p>";
+  echo "<p>&nbsp;</p>";
+  echo "<div class='row'>";
+  echo "  <div class='col-lg-9 col-md-9 col-sm-12 col-xs-12'>";
+  echo "    <div class='panel panel-default'>
+              <div class='panel-heading'>
+                 <h3 class='panel-title breadcrumbs'>";  // hier hinein Breadcrumbs und mail
+ echo "<a href='./'><i class='fa fa-home' aria-hidden='true'></i></a>&nbsp;&nbsp;";
+ echo "<i class='fa fa-caret-right' aria-hidden='true'></i>&nbsp;&nbsp;";
+ if (strlen($_GET["top"])>0) {
+   echo "<a href='./".$_GET['top']."'>".strtoupper($_GET["top"])."</a>";
+ } else {
+   echo " Startseite";
+ }
+ if (strlen($_GET["sub"])>0) {
+   echo "&nbsp;&nbsp;<i class='fa fa-caret-right' aria-hidden='true'></i>&nbsp;&nbsp;";
+   echo "<a href='./".$_GET['top']."/".$_GET['sub']."'>".strtoupper($_GET["sub"])."</a>";
+ }
+ if (strlen($_GET["level2"])>0) {
+   echo "&nbsp;&nbsp;<i class='fa fa-caret-right' aria-hidden='true'></i>&nbsp;&nbsp;";
+   echo "<a href='./".$_GET['top']."/".$_GET['sub']."/".$_GET["level2"]."'>".str_ireplace('_', ' ', strtoupper($_GET["level2"]))."</a>";
+ }
+   // Box auf der rechten Seite der breadcrumbs
+   echo "     <div class='rightbox'>";
+   $title = ($lang == "en") ? "send us an e-mail" : "schicken Sie uns eine E-Mail";
+   echo "<a class='nosign' title='".$title."' href='mailto:t.fartmann@uos.de'><i class='fa fa-envelope' aria-hidden='true'></i></a>";
+   echo "<a href='./' onclick=\"switchLang('de');\">DE</a> |
+         <a href='./' onclick=\"switchLang('en');\">EN</a>";
+   echo "     </div>";
 
-  // Box auf der rechten Seite der breadcrumbs
-  echo "     <div class='rightbox'>";
-  echo "<p><small>";
-  $title = ($lang == "en") ? "send us an e-mail" : "schicken Sie uns eine E-Mail";
-  echo "<a class='nosign' title='".$title."' href='mailto:t.fartmann@uos.de'><i class='fa fa-envelope' aria-hidden='true'></i></a>";
-  echo "<a href='./' onclick=\"switchLang('en');\">EN</a> |
-        <a href='./' onclick=\"switchLang('de');\">DE</a>";
-  echo "</small></p>";
-  echo "     </div>";
-  echo "  </div>";
+  echo "         </h3>";
+  echo "      </div>"; // panel-heading
+  echo "    </div>"; // panel
+  echo "  </div>"; // breadcrumbs
 
-  echo "  <div class='col-lg-3 col-md-3 col-sm-12 col-xs-12 righttop'>";
-  echo "<p class='text-center'><small>";
-  echo ($lang == "en") ? "MORE INFORMATION" : "MEHR INFORMATIONEN";
-  echo "</small></p>";
-
-  echo "  </div>";
-  echo "</div>";
-  echo "</div></div></div>";
+  echo "  <div class='col-lg-3 col-md-3 col-sm-12 col-xs-12'>";
+  echo "    <div class='panel panel-default'>
+              <div class='panel-heading'>
+                 <h3 class='panel-title' style='padding-top:5px;'>MEHR INFORMATIONEN</h3>";
+  echo "      </div>"; // panel-heading
+  echo "    </div>"; // panel
+  echo "  </div>"; // breadcrumbs
+  echo "</div>"; // zeile
 
   echo "<hr>";
 ?>

@@ -203,14 +203,14 @@
 
                           if (strlen($theSpecies[$k]->comment)>0) {
                             switch ($theSpecies[$k]->comment) {
-                              case '*':
-                                echo "<small>&nbsp;&nbsp;<i class='fa fa-star' aria-hidden='true'></i></small>";
+                              case '1':
+                                echo "<sup>&nbsp;&nbsp;1</sup>";
                                 break;
-                              case '**':
-                                echo "<small>&nbsp;&nbsp;<i class='fa fa-star' aria-hidden='true'></i>&nbsp;<i class='fa fa-star' aria-hidden='true'></i></small>";
+                              case '2':
+                                echo "<sup>&nbsp;&nbsp;2</sup>";
                                 break;
-                              case '***':
-                                echo "<small>&nbsp;&nbsp;<i class='fa fa-star' aria-hidden='true'></i>&nbsp;<i class='fa fa-star' aria-hidden='true'></i>&nbsp;<i class='fa fa-star' aria-hidden='true'></i></small>";
+                              case '':
+                                echo "<sup>&nbsp;&nbsp;3</sup>";
                                 break;
                             }
                           }
@@ -276,10 +276,11 @@
   </div>
   <div class="row">
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <h2>Erläuterung:</h2>
         <div class="row">
           <div class="col-lg-1 col-md-2 col-sm-2 col-xs-3">
-            <small>&nbsp;&nbsp;<i class='fa fa-star' aria-hidden='true'></i></small>
+            <sup>
+              1
+            </sup>
           </div>
           <div class="col-lg-10 col-md-10 col-sm-10 col-xs-9">
             Aktuell verschollen oder ausgestorben
@@ -287,7 +288,7 @@
         </div>
         <div class="row">
           <div class="col-lg-1 col-md-2 col-sm-2 col-xs-3">
-            <small>&nbsp;&nbsp;<i class='fa fa-star' aria-hidden='true'></i>&nbsp;<i class='fa fa-star' aria-hidden='true'></i></small>
+            <sup>2</sup>
           </div>
           <div class="col-lg-10 col-md-10 col-sm-10 col-xs-9">
             Einzelfunde synanthropen Ursprungs
@@ -295,7 +296,9 @@
         </div>
         <div class="row">
           <div class="col-lg-1 col-md-2 col-sm-2 col-xs-3">
-            <small>&nbsp;&nbsp;<i class='fa fa-star' aria-hidden='true'></i>&nbsp;<i class='fa fa-star' aria-hidden='true'></i>&nbsp;<i class='fa fa-star' aria-hidden='true'></i></small>
+            <sup>
+              3
+            </sup>
           </div>
           <div class="col-lg-10 col-md-10 col-sm-10 col-xs-9">
             Artstatus unklar

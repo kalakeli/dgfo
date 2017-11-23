@@ -162,6 +162,7 @@
         echo "  <div class='col-lg-4 col-md-4 col-sm-6 col-xs-12'>"; // Bilder (m, w)
         if (count($thePics)>0) {
           $path = "images/species/";
+          $svgShown = false;
           for ($i=0; $i<count($thePics); $i++) {
             $pic = $path.$thePics[$i]->pic;
             if (file_exists($pic)) {
@@ -178,12 +179,17 @@
 
               echo "      <figcaption id='id_sp_piccaption'>".$thePics[$i]->picText."<br>".$owner."</figcaption";
               echo "   </figure>";
+            } else { // wenn Bilder eingetragen sind, aber (noch) nicht gefunden werden, Dummy anzeigen
+              if (!$svgShown) {
+                echo "   <figure>";
+                echo "<img src='images/svg_grasshopper.svg' class='img-rounded img-responsive' alt='kein Artbild'>";
+                echo "<figcaption>Leider liegt uns derzeit noch kein Bild dieser Art vor. Wenn Sie uns ein geeignetes Bild zur Verfügung stellen können, freuen wir uns sehr über eine Kontaktaufnahme</figcaption>";
+                echo "   </figure>";
+                $svgShown = true;
+              }
             }
           }
         } else {
-          // echo "<div style='width:100%;height:auto;min-height:150px;background-color:#eaeaea;border:1px solid #e0e0e0; border-radius:6px; padding:20px;'>";
-          // echo "<p>Uns liegt kein Bild dieser Art vor. <br>Wenn Sie eines haben, freuen wir uns sehr über eine Kontaktaufnahme!</p>";
-          // echo "</div>";
           echo "   <figure>";
           echo "<img src='images/svg_grasshopper.svg' class='img-rounded img-responsive' alt='kein Artbild'>";
           echo "<figcaption>Leider liegt uns derzeit noch kein Bild dieser Art vor. Wenn Sie uns ein geeignetes Bild zur Verfügung stellen können, freuen wir uns sehr über eine Kontaktaufnahme</figcaption>";
