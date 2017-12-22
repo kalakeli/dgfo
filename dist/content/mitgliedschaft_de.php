@@ -72,7 +72,7 @@
               <p>
                 c/o Universität Koblenz-Landau <br>
                 Institut für Umweltwissenschaften <br>
-                Forststr. 7 <br>
+                Fortstr. 7 <br>
                 DE–76829 Landau
               </p>
               <p><strong>E-Mail:</strong>

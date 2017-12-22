@@ -26,20 +26,6 @@
           <h2>DGfO</h2>
         </a>
       </figure>
-<?php
-  if ( ($lang == "ge") || ($lang == "de") ) {
-      echo "<figure>
-               <img src='images/icon_engl.png' title='switch to english' onclick=\"switchLang('en');\" class='lngchanger' alt='news icon' class='img-responsive img-rounded'>
-            </figure>";
-  } else {
-    echo "<figure>
-            <a href='#'>
-              <img src='images/icon_german.png' title='die deutsche Version anzeigen' onclick=\"switchLang('de');\" class='lngchanger' alt='news icon' class='img-responsive img-rounded'>
-            </a>
-          </figure>";
-  }
-?>
-
     </li>
     <li>
       <div class="menubar">
@@ -130,7 +116,7 @@
         &nbsp;
       </div>
       <figure>
-        <?php $title =  ( ($lang == "ge") || ($lang == "de") ) ? "Schaben <br> Ohrwürmer" : "Blattodea <br> Dermaptera"; ?>
+        <?php $title =  ( ($lang == "ge") || ($lang == "de") ) ? "Schaben |<br> Ohrwürmer" : "Blattodea |<br> Dermaptera"; ?>
         <a href="./schaben" <?php echo ($_GET["top"]=="schaben") ? "class='active' title='".$title."'" : " title='".$title."'"; ?>>
           <img src="images/menu/cockroach_fff.png" class="navicon" alt="cockroach icon" class="img-responsive">
           <figcaption>

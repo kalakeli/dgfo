@@ -17,10 +17,7 @@
   <div class="row">
     <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
       <h3>Schicken Sie uns eine Nachricht</h3>
-      <p>Wenn Sie uns eine Nachricht schicken möchten, können Sie dies hier tun.
-        Bitte füllen Sie dabei mindestens die Felder mit
-        <small><span class="text-danger star"><i class="fa fa-star" aria-hidden="true"></i></span></small>
-         aus.</p>
+      <p>Wenn Sie uns eine Nachricht schicken möchten, können Sie dies hier tun.</p>
     </div>
   </div>
 
@@ -30,7 +27,7 @@
       <form class="form-horizontal" id="fMail" method="post">
         <div class="form-group">
           <label for="inputName" class="col-sm-2 control-label">
-            Name <small><span class="text-danger star"><i class="fa fa-star" aria-hidden="true"></i></span></small>
+            Name <small><sup>1</sup></small>
           </label>
           <div class="col-sm-10">
             <input type="text" class="form-control" id="inputName" placeholder="Ihr Name" required>
@@ -38,7 +35,7 @@
         </div>
         <div class="form-group">
           <label for="inputEmail" class="col-sm-2 control-label">
-            E-Mail <small><span class="text-danger star"><i class="fa fa-star" aria-hidden="true"></i></span></small>
+            E-Mail <small><sup>1</sup></small>
           </label>
           <div class="col-sm-10">
             <input type="email" class="form-control" id="inputEmail" placeholder="E-Mail" required>
@@ -52,7 +49,7 @@
         </div>
         <div class="form-group">
           <label for="inputTarget" class="col-sm-2 control-label">
-            Ziel <small><span class="text-danger star"><i class="fa fa-star" aria-hidden="true"></i></span></small>
+            Ziel <small><sup>1</sup></small>
           </label>
           <div class="col-sm-10">
             <select class="form-control" id="selTarget" required>
@@ -70,7 +67,7 @@
         </div>
         <div class="form-group">
           <label for="inputSubject" class="col-sm-2 control-label">
-            Titel <small><span class="text-danger star"><i class="fa fa-star" aria-hidden="true"></i></span></small>
+            Titel <small><sup>1</sup></small>
           </label>
           <div class="col-sm-10">
             <input type="text" class="form-control" id="inputSubject" placeholder="Titel der Nachricht" required>
@@ -78,7 +75,7 @@
         </div>
         <div class="form-group">
           <label for="inputMsg" class="col-sm-2 control-label">
-            Nachricht <small><span class="text-danger star"><i class="fa fa-star" aria-hidden="true"></i></span></small>
+            Nachricht <small><sup>1</sup></small>
           </label>
           <div class="col-sm-10">
             <textarea class="form-control" rows="10" id="inputMsg" placeholder="Ihre Nachricht an uns" required></textarea>
@@ -87,7 +84,7 @@
 
         <div class="form-group">
           <div class="col-sm-offset-2 col-sm-10">
-            <button type="submit" class="btn btn-primary">Abschicken</button>
+            <button type="submit" class="btn btn-success">Abschicken</button>
           </div>
         </div>
 
@@ -105,6 +102,17 @@
       <div class="row">
         <div class="col-sm-offset-2 col-sm-10 msg" id="msg"></div>
       </div>
+
+
+      <div class="row">
+        <div class="col-sm-10">
+          <sup>
+            1
+          </sup>&nbsp;&nbsp;Diese Felder müssen ausgefüllt werden!
+        </div>
+      </div>
+
+
 
     </div>
   </div>

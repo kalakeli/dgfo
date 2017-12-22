@@ -97,11 +97,18 @@
   #id_headerpics {
     display: none;
   }
+
+  .no-mobile {
+    display: none;
+  }
 }
 /* fuer sehr kleine displays sollten die Cover ausgeblendet werden */
 @media screen and (min-width:100px) and (max-width:500px) {
 
   .img-thumbnail {
+    display: none;
+  }
+  .no-mobile {
     display: none;
   }
 }

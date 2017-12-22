@@ -3,10 +3,12 @@
     // SUCHE
 
 
-    require_once "includes/db_inc.php";
-    require_once "oo/species.php";
-    require_once "oo/speciespics.php";
-    require_once "oo/publication.php";
+    require_once "./../includes/db_inc.php";
+    require_once "./../oo/species.php";
+    require_once "./../oo/speciespics.php";
+    require_once "./../oo/publication.php";
+
+
 
 
   // establish connection to db
@@ -24,7 +26,6 @@
   if ( (empty($_POST)) && (empty($_GET)) ) {
       header("Location: ./../index.php"); exit;
   }
-
 
 
   //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -138,6 +139,52 @@
   if ( (!empty($_POST['do'])) && ("loadRandomPics" === $_POST['do']) ) {
 
     $nr = intval(strip_tags(trim($_POST['nr'])));
+    $container = array();
+
+    while (count($container)<$nr) {
+      $thePic = SpeciesPic::getRandomPic($pdo, $tblSpeciesPics);
+      if (strlen($thePic->spPKID)>0) {
+        if (file_exists("../images/species/".$thePic->pic)) {
+          $in = false;
+          for ($i=0; $i<count($container); $i++) {
+            if ($container[$i]->spPKID == $thePic->spPKID) {
+              $in = true;
+            }
+          }
+          if (!$in) {
+              $container[] = $thePic;
+          }
+        }
+      }
+    }
+
+    // Bilder zusammenbauen und zurueckschicken
+    $str = "";
+    for ($i=0; $i<count($container); $i++) {
+      $theSpecies = Species::getSpeciesById($pdo, $tblSpecies, $lutSys, $container[$i]->speciesID);
+      $linkName = strtolower(str_replace(" ", "_", $theSpecies->name_sc));
+      if (strpos($linkName, "(")>0) {
+        $link = preg_replace('/\(.*?\)_|\s*/', '', $linkName);
+      } else {
+        $link = $linkName;
+      }
+      $str .= "<div class='col-md-3 col-sm-3'>";
+      $str .= "  <a href='./heuschrecken/arten/".$link."' title='mehr Infos gibt es, wenn Sie das Bild anklicken'><img src='images/species/".str_ireplace('_lg.jpg', '_mi.jpg', $container[$i]->pic)."' alt='bild' class='img-rounded img-responsive'></a>";
+      $str .= "  <div class='imgtitle'>";
+      $str .= "    <p><em>".$container[$i]->picText."</em></p>";
+      $str .= "  </div>";
+      $str .= "</div>";
+    }
+    echo $str;
+  }
+
+
+  //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+  //+++++  Zufallsbilder fuer den Startbereich suchen und vorbereiten
+  //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+  if ( (!empty($_GET['do'])) && ("loadRandomPics" === $_GET['do']) ) {
+
+    $nr = intval(strip_tags(trim($_GET['nr'])));
     $container = array();
 
     while (count($container)<$nr) {

@@ -48,12 +48,13 @@ strong {
 }
 
 .page-wrap {
-  margin-left: 175px; /* muss zum Start ebenso 300px nach links verschoben sein
+  margin-left: 170px; /* muss zum Start ebenso 300px nach links verschoben sein
                          und wird bei Klick auf das + nach rechts verschoben */
-  margin-top: 30px;
+  margin-top: 0px;
   width: calc(100% - 175px);
   padding-bottom:25px;
 }
+
 
 .header {
   margin-left: 150px;
@@ -379,6 +380,7 @@ figcaption {
 }
 .breadcrumbs a {
   color: #fff;
+  font-weight: normal;
 }
 
 .rightbox {
@@ -414,4 +416,7 @@ figcaption {
 .panel-default > .panel-footer + .panel-collapse > .panel-body {
   border-bottom-color: #315032;
   /*border-bottom-color: #fff;*/
+}
+.form-horizontal .control-label {
+  text-align: left;
 }

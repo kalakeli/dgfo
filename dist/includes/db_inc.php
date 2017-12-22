@@ -8,10 +8,18 @@
 /*
  * KB-Specs
  */
-   $username = "d0268078";
-   $host = "localhost";
+   // $username = "d0268078";
+   // $host = "localhost";
+   // $password = "6FLstsj6!";
+   // $databaseName = "d0268078";
+
+/*
+ * STRATO -> DGfO Specs
+ */
+   $username = "U3205343";
+   $host = "rdbms.strato.de";
    $password = "6FLstsj6!";
-   $databaseName = "d0268078";
+   $databaseName = "DB3205343";
 
 
    // Seit PHP-Version 5.1 muss die locale gesetzt werden - Berlin
@@ -21,7 +29,7 @@
 
    // ----- T A B E L L E N   -------------------------------------------------
    $lutSys                = "lutSystematik";    // Systematik, Ordnungen + Familien
-   $tblNews            = "tblNews";                 // Nachrichten
+   $tblNews               = "tblNews";                 // Nachrichten
    $tblSpecies            = "tblSpecies";       // Arten
    $tblSpeciesBB          = "tblSpeciesBB";     // Arten-Subset Berlin / Brandenburg
    $tblSpeciesNW          = "tblSpeciesNW";     // Arten-Subset NRW

@@ -145,14 +145,23 @@
 
         // Zeile mit Namen
         echo "<div class='row'>";
-        echo "  <div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>";
-        echo "   <h2 id='id_spname_ge'>".$theSpecies->name_ge."</h2>";
+        echo "  <div class='col-lg-9 col-md-9 col-sm-9 col-xs-12'>";
+        echo "   <h2 id='id_spname_ge'>".$theSpecies->name_ge." <span id='id_spname_sc'><em>(".$theSpecies->name_sc.")</em></span></h2>";
         echo "  </div>";
-        echo "  <div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>";
+        echo "  <div class='col-lg-3 col-md-3 col-sm-3 col-xs-12'>";
         $nameOrigin = (strlen($theSpecies->nameOrigin)>0) ? " (".$theSpecies->nameOrigin.") " : "";
-        echo "   <h2 id='id_spname_sc' class='text-right'><em>".$theSpecies->name_sc."</em>
-                 <br><small class='text-muted' id='id_spname_origin'>".$nameOrigin."</small></h2>";
+        echo "   <h2 id='id_spname_sc' class='text-right'>
+                 <small class='text-muted' id='id_spname_origin'>".$nameOrigin."</small></h2>";
         echo "  </div>";
+        // echo "<div class='row'>";
+        // echo "  <div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>";
+        // echo "   <h2 id='id_spname_ge'>".$theSpecies->name_ge."</h2>";
+        // echo "  </div>";
+        // echo "  <div class='col-lg-6 col-md-6 col-sm-6 col-xs-12'>";
+        // $nameOrigin = (strlen($theSpecies->nameOrigin)>0) ? " (".$theSpecies->nameOrigin.") " : "";
+        // echo "   <h2 id='id_spname_sc' class='text-right'><em>".$theSpecies->name_sc."</em>
+        //          <br><small class='text-muted' id='id_spname_origin'>".$nameOrigin."</small></h2>";
+        // echo "  </div>";
 
         echo "</div>";
 

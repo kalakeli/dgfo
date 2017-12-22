@@ -44,7 +44,7 @@
           echo "<p><small><a href='./articulata/inhalt/".$vols[$i]."'>Band ".$vols[$i]." <br>(".$volStr.")</a></small></p>";
           echo "</p>";
         } else {
-          echo "    <p><small><a href='./articulata/inhalt/".$vols[$i]."'>Band ".$vols[$i]." <br>(".$volStr.")</a></small></p>";
+          echo "    <p><small><a href='./articulata/inhalt/".$vols[$i]."'>Band ".$vols[$i]." <br>(".$volStr.")</a> </small></p>";
         }
 
         echo "  </div>";

@@ -68,7 +68,7 @@
 
     // mail schicken
     // $to = ''.$email.''; // MUSS NOCH EINGERICHTET WERDEN!!!
-    $to = 'berlin@dda-web.de'; // MUSS NOCH EINGERICHTET WERDEN!!!
+    $to = 'kontakt@dgfo-articulata.de'; 
 
     // Subject
     $subject = '- '.$target.' | '.$topic.' -';

@@ -344,26 +344,20 @@
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
       <div class="row">
-        <div class="col-lg-1 col-md-2 col-sm-2 col-xs-3">
-          <sup>1</sup>
-        </div>
         <div class="col-lg-10 col-md-10 col-sm-10 col-xs-9">
+          <sup>1</sup>&nbsp;&nbsp;
           Aktuell verschollen oder ausgestorben
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-1 col-md-2 col-sm-2 col-xs-3">
-          <sup>2</sup>
-        </div>
         <div class="col-lg-10 col-md-10 col-sm-10 col-xs-9">
+          <sup>2</sup>&nbsp;&nbsp;
           Einzelfunde synanthropen Ursprungs
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-1 col-md-2 col-sm-2 col-xs-3">
-          <sup>3</sup>
-        </div>
         <div class="col-lg-10 col-md-10 col-sm-10 col-xs-9">
+          <sup>3</sup>&nbsp;&nbsp;
           Artstatus unklar
         </div>
       </div>

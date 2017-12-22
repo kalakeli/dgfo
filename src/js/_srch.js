@@ -38,7 +38,7 @@ $( "#srchArticulata" ).submit(function( event ) {
 
     // Callback handler that will be called on failure
     request.fail(function (jqXHR, textStatus, errorThrown){
-        console.error(
+        console.log(
             "The following error occurred: " + textStatus, errorThrown
         );
     });
@@ -100,7 +100,7 @@ function getSpeciesByName(val) {
 
   // Callback handler that will be called on failure
   request.fail(function (jqXHR, textStatus, errorThrown){
-      console.error(
+      console.log(
           "The following error occurred: " + textStatus, errorThrown
       );
   });

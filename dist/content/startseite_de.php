@@ -2,13 +2,8 @@
   // deutschsprachige Hauptseite der mitgliedschaft
 ?>
 
-<div class="container-fluid">
-  <!-- <div class="row">
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-      <h1>Willkommen bei der Deutschen Gesellschaft für Orthopterologie e.V.</h1>
-    </div>
-  </div> -->
 
+<div class="container-fluid" style="margin-top:25px;">
   <div class="row">
     <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
       <h1>Willkommen bei der Deutschen Gesellschaft für Orthopterologie e.V.</h1>

@@ -13,7 +13,7 @@ function loadRandomPics(target, nr) {
     // Fire off the request to /form.php
     request = $.ajax({
         url: "redirects/redirect_search.php",
-        method: "post",
+        method: "POST",
         data: {
           do: "loadRandomPics",
           nr: nr
@@ -38,8 +38,8 @@ function loadRandomPics(target, nr) {
 
     // Callback handler that will be called on failure
     request.fail(function (jqXHR, textStatus, errorThrown){
-        console.error(
-            "The following error occurred: " + textStatus, errorThrown
+        console.log(
+            "Error occurred: " + textStatus, errorThrown
         );
     });
 
