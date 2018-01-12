@@ -70,7 +70,7 @@
             <h4>23.-25. März 2018</h4>
             <p>
               15. Jahrestagung der DGfO im Naturkundemuseum Potsdam  <br>
-              <ul class="dgfo"><li><a href="downloads/tagungen/2018_15_jahrestagung_dgfo_potsdam_ankuendigung.pdf" target="_blank">Flyer &nbsp;&nbsp;<i class='fa fa-file-pdf-o' aria-hidden='true'></i></a></li></ul>
+              <ul class="dgfo"><li><a href="downloads/tagungen/2018_15_jahrestagung_dgfo_potsdam_ankuendigung.pdf" target="_blank">Flyer <img src="images/icon_pdf.svg" alt="pdf" class="img-pdf"></a></li></ul>
             </p>
           </div>
         </div>
@@ -82,7 +82,7 @@
             <p>
               Seminar der Umweltakademie Baden-Württemberg: Bioindikatoren der
               Landschaft: Heuschrecken – Zeigerarten <br>
-              <ul class="dgfo"><li><a href="2017_seminar_umweltakademie_bw.pdf" target="_blank">Flyer &nbsp;&nbsp;<i class='fa fa-file-pdf-o' aria-hidden='true'></i></a></li></ul>
+              <ul class="dgfo"><li><a href="2017_seminar_umweltakademie_bw.pdf" target="_blank">Flyer <img src="images/icon_pdf.svg" alt="pdf" class="img-pdf"></a></li></ul>
             </p>
           </div>
         </div>
