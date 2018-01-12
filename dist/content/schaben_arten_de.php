@@ -55,7 +55,7 @@
 
             echo "<p><a href='./schaben/arten/".$link."'><button type='button' class='btn btn-default btn-block'><i>".$theSpecies[$i]->name_sc."</i>";
             echo (strlen($theSpecies[$i]->name_ge)>0) ? "<span class='speciessmallscr'> - ".$theSpecies[$i]->name_ge."</span>" : "";
-            echo " <br><small class='text-muted'>(".$theSpecies[$i]->nameOrigin.")</small>";
+            echo " <br><small class='text-muted'>".$theSpecies[$i]->nameOrigin."</small>";
             echo "</button></p></a>";
         }
       }
@@ -94,7 +94,7 @@
 
             echo "<p><a href='./schaben/arten/".$link."'><button type='button' class='btn btn-default btn-block'><i>".$theSpecies[$i]->name_sc."</i>";
             echo (strlen($theSpecies[$i]->name_ge)>0) ? "<span class='speciessmallscr'> - ".$theSpecies[$i]->name_ge."</span>" : "";
-            echo " <br><small class='text-muted'>(".$theSpecies[$i]->nameOrigin.")</small>";
+            echo " <br><small class='text-muted'>".$theSpecies[$i]->nameOrigin."</small>";
             echo "</button></p></a>";
         }
       }
@@ -153,7 +153,7 @@
 
             echo "<p><a href='schaben/arten/".$link."'><button type='button' class='btn btn-default btn-block'><i>".$theSpecies[$i]->name_sc."</i>";
             echo (strlen($theSpecies[$i]->name_ge)>0) ? "<span class='speciessmallscr'> - ".$theSpecies[$i]->name_ge."</span>" : "";
-            echo " <br><small class='text-muted'>(".$theSpecies[$i]->nameOrigin.")</small>";
+            echo " <br><small class='text-muted'>".$theSpecies[$i]->nameOrigin."</small>";
             echo "</button></p></a>";
         }
       }
@@ -192,7 +192,7 @@
 
             echo "<p><a href='./schaben/arten/".$link."'><button type='button' class='btn btn-default btn-block'><i>".$theSpecies[$i]->name_sc."</i>";
             echo (strlen($theSpecies[$i]->name_ge)>0) ? "<span class='speciessmallscr'> - ".$theSpecies[$i]->name_ge."</span>" : "";
-            echo " <br><small class='text-muted'>(".$theSpecies[$i]->nameOrigin.")</small>";
+            echo " <br><small class='text-muted'>".$theSpecies[$i]->nameOrigin."</small>";
             echo "</button></p></a>";
         }
       }
@@ -225,7 +225,7 @@
         echo "   <h2 id='id_spname_ge'>".$theSpecies->name_ge." <span id='id_spname_sc'><em>(".$theSpecies->name_sc.")</em></span></h2>";
         echo "  </div>";
         echo "  <div class='col-lg-3 col-md-3 col-sm-3 col-xs-12'>";
-        $nameOrigin = (strlen($theSpecies->nameOrigin)>0) ? " (".$theSpecies->nameOrigin.") " : "";
+        $nameOrigin = (strlen($theSpecies->nameOrigin)>0) ? " ".$theSpecies->nameOrigin." " : "";
         echo "   <h2><small class='text-muted' id='id_spname_origin'>".$nameOrigin."</small></h2>";
         echo "  </div>";
         // echo "  <div class='col-lg-4 col-md-4 col-sm-4 col-xs-12'>";

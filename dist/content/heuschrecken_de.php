@@ -195,7 +195,7 @@
 
                       echo "<p><a href='./heuschrecken/arten/".$link."'><button type='button' class='btn btn-default btn-block'><i>".$theSpecies[$k]->name_sc."</i>";
                       echo (strlen($theSpecies[$k]->name_ge)>0) ? "<span class='speciessmallscr'> - ".$theSpecies[$k]->name_ge."</span>" : "";
-                      echo " <br><small class='text-muted'>(".$theSpecies[$k]->nameOrigin.")</small>";
+                      echo " <br><small class='text-muted'>".$theSpecies[$k]->nameOrigin."</small>";
                       echo "</button></p></a>";
 
                     }
@@ -239,7 +239,7 @@
 
         echo "<p><a href='./heuschrecken/arten/".$link."'><button type='button' class='btn btn-default btn-block'><i>".$theSpecies[$k]->name_sc."</i>";
         echo (strlen($theSpecies[$k]->name_ge)>0) ? "<span class='speciessmallscr'> - ".$theSpecies[$k]->name_ge."</span>" : "";
-        echo " <br><small class='text-muted'>(".$theSpecies[$k]->nameOrigin.")</small>";
+        echo " <br><small class='text-muted'>".$theSpecies[$k]->nameOrigin."</small>";
         echo "</button></p></a>";
 
       }

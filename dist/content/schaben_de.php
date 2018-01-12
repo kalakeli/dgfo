@@ -144,7 +144,7 @@ if (count($theSpecies)>0) {
 
       echo "<p><a href='./schaben/arten/".$link."'><button type='button' class='btn btn-default btn-block'><i>".$theSpecies[$i]->name_sc."</i>";
       echo (strlen($theSpecies[$i]->name_ge)>0) ? "<span class='speciessmallscr'> - ".$theSpecies[$i]->name_ge."</span>" : "";
-      echo " <br><small class='text-muted'>(".$theSpecies[$i]->nameOrigin.")</small>";
+      echo " <br><small class='text-muted'>".$theSpecies[$i]->nameOrigin."</small>";
       echo "</button></p></a>";
   }
 }
@@ -183,7 +183,7 @@ if (count($theSpecies)>0) {
 
       echo "<p><a href='./schaben/arten/".$link."'><button type='button' class='btn btn-default btn-block'><i>".$theSpecies[$i]->name_sc."</i>";
       echo (strlen($theSpecies[$i]->name_ge)>0) ? "<span class='speciessmallscr'> - ".$theSpecies[$i]->name_ge."</span>" : "";
-      echo " <br><small class='text-muted'>(".$theSpecies[$i]->nameOrigin.")</small>";
+      echo " <br><small class='text-muted'>".$theSpecies[$i]->nameOrigin."</small>";
       echo "</button></p></a>";
   }
 }
@@ -242,7 +242,7 @@ if (count($theSpecies)>0) {
 
       echo "<p><a href='./schaben/arten/".$link."'><button type='button' class='btn btn-default btn-block'><i>".$theSpecies[$i]->name_sc."</i>";
       echo (strlen($theSpecies[$i]->name_ge)>0) ? "<span class='speciessmallscr'> - ".$theSpecies[$i]->name_ge."</span>" : "";
-      echo " <br><small class='text-muted'>(".$theSpecies[$i]->nameOrigin.")</small>";
+      echo " <br><small class='text-muted'>".$theSpecies[$i]->nameOrigin."</small>";
       echo "</button></p></a>";
   }
 }
@@ -281,7 +281,7 @@ if (count($theSpecies)>0) {
 
       echo "<p><a href='./schaben/arten/".$link."'><button type='button' class='btn btn-default btn-block'><i>".$theSpecies[$i]->name_sc."</i>";
       echo (strlen($theSpecies[$i]->name_ge)>0) ? "<span class='speciessmallscr'> - ".$theSpecies[$i]->name_ge."</span>" : "";
-      echo " <br><small class='text-muted'>(".$theSpecies[$i]->nameOrigin.")</small>";
+      echo " <br><small class='text-muted'>".$theSpecies[$i]->nameOrigin."</small>";
       echo "</button></p></a>";
   }
 }

@@ -214,7 +214,7 @@
                                 break;
                             }
                           }
-                          echo " <br><small class='text-muted'>(".$theSpecies[$k]->nameOrigin.")</small>";
+                          echo " <br><small class='text-muted'>".$theSpecies[$k]->nameOrigin."</small>";
                           echo "</button></p></a>";
 
                         }
